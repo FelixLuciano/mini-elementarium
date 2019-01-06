@@ -1,13 +1,7 @@
 <template lang='pug'>
 
-  v-container
-    v-layout(fill-height row wrap justify-center align-center)
-
-      v-divider.hidden-xs-only
-
-      project-placeholder.mx-2
-
-      v-divider.hidden-xs-only
+  v-flex(xs12 sm12 md11 lg10)
+    periodic-table
   //--
 </template>
 
@@ -15,14 +9,14 @@
 
 <script lang='coffee'>
 
-  import projectPlaceholder from '@/components/project-placeholder.vue'
+  import periodicTable from '@/components/periodic-table.vue'
 
   export default
     name: 'home'
 
 
     components:
-      'project-placeholder': projectPlaceholder
+      'periodic-table': periodicTable
 
 </script>
 

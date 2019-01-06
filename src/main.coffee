@@ -7,7 +7,9 @@ import 'vuetify/dist/vuetify.css'
 import router from './router/index.coffee'
 
 
-Vue.use Vuetify
+Vue.use Vuetify,
+  theme:
+    primary: '#FDD835'
 
 new Vue
   el: '#app',

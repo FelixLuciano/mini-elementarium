@@ -1,9 +1,12 @@
 <div align='center'>
-  <img src='public/logo-200x200.png'>
-  <h1 class='repo-title'>mini-elementarium</h1>
+  <img src='public/readme-banner.svg'>
+  <h1 class='repo-title'>Mini Elementarium</h1>
   <span>An informative application of the elements of the periodic table</span>
 </div>
 <br/>
+
+## Check out
+##### [FelixLuciano.github.io/mini-elementarium](https://felixluciano.github.io/mini-elementarium)
 
 
 ## Build Setup
