@@ -5,7 +5,7 @@
     v-toolbar(dense flat color='transparent')
 
       v-btn.ma-0.pl-1(flat round color='white' @click='goHome')
-        v-img(width='32px' src='public/logo-light.svg')
+        v-img(width='32px' src='public/logo.svg')
         .pl-3.subheading.font-weight-black Mini Elementarium
 
       v-spacer
@@ -15,10 +15,9 @@
 
 
     v-container
-      v-layout(fill-height justify-center align-center)
 
-        transition(name='slide-y-reverse-transition' mode='out-in')
-          router-view
+      transition(name='slide-y-reverse-transition' mode='out-in')
+        router-view
 
 
     v-dialog(light max-width='700' v-model='showInfoDialog')
@@ -38,7 +37,7 @@
 
 
         v-card-actions
-          v-btn.font-weight-bold(flat color='blue-grey darken-4' target='_blank' href='https://github.com/FelixLuciano/mini-elementarium/blob/master/index.html')
+          v-btn.font-weight-bold(flat color='blue-grey darken-4' target='_blank' href='https://github.com/FelixLuciano/mini-elementarium/blob/master/LICENSE')
             v-icon.mb-1.mr-2(left) mdi-scale-balance
             | License
 
@@ -57,7 +56,7 @@
 
 
     data: ->
-      showInfoDialog: true
+      showInfoDialog: false
 
 
     methods:

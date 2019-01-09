@@ -22,8 +22,4 @@ $ npm start
 
 ## License
 
-MIT
-
-
-<br/>
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[MIT](https://github.com/FelixLuciano/mini-elementarium/blob/master/LICENSE)
