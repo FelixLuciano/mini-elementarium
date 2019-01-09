@@ -30,7 +30,7 @@
 
 
     mounted: ->
-      Axios_get '/public/chemical-elements.json'
+      Axios_get 'https://felixluciano.github.io/mini-elementarium/public/chemical-elements.json'
         .then ({data}) =>
           @chemicalElements = data
 

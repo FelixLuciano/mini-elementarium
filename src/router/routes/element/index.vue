@@ -130,7 +130,7 @@
         @chemical = @$route.params.data
 
       else
-        Axios_get '/public/chemical-elements.json'
+        Axios_get 'https://felixluciano.github.io/mini-elementarium/public/chemical-elements.json'
           .then ({data}) =>
 
             match = data.filter (item) =>
