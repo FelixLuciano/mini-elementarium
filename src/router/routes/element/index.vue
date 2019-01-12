@@ -9,7 +9,7 @@
 
         .display-3
           span(:style='{"color": chemical.color}') [
-          | {{ chemical.init }}
+          | {{ chemical.initials }}
           span(:style='{"color": chemical.color}') ]
 
         .display-1 {{ chemical.name }}
@@ -27,24 +27,26 @@
         template(v-if='$vuetify.breakpoint.smAndUp')
           .display-3
             span(:style='{"color": chemical.color}') [
-            | {{ chemical.init }}
+            | {{ chemical.initials }}
             span(:style='{"color": chemical.color}') ]
 
             .display-1 {{ chemical.name }}
               sup.grey--text.text--lighten-1 {{ chemical.atom }}
 
+            .subheading.grey--text.text--lighten-1.font-italic {{ chemical.latin }}
+
         v-container.px-2.pb-0
-          .subheading.grey--text.text--lighten-1 Type
-          .headline(:style='{"color": chemical.color}') {{ chemical.type }}
+          .subheading.grey--text.text--lighten-1 {{ $root.texts.chemical.family }}
+          .headline(:style='{"color": chemical.color}') {{ $root.texts.families[chemical.family] }}
 
           br
 
-          .subheading.grey--text.text--lighten-1 Weight
-          .headline(:style='{"color": chemical.color}') {{ chemical.weight }}
+          .subheading.grey--text.text--lighten-1 {{ $root.texts.chemical.atomicMass }}
+          .headline(:style='{"color": chemical.color}') {{ chemical.mass }}
 
           br
 
-          .subheading.grey--text.text--lighten-1 Electronic configuration
+          .subheading.grey--text.text--lighten-1 {{ $root.texts.chemical.electronicConfiguration }}
           .headline(:style='{"color": chemical.color}') {{ smallEletronicDistribution }}
   //--
 </template>
@@ -64,11 +66,22 @@
       'atom': electronDiagram
 
 
-    data: ->
-      chemical: false
-
-
     computed:
+      chemicalElements: ->
+        @$root.chemicalElements
+
+
+      chemical: ->
+        if @$route.params.data
+          return @$route.params.data
+
+        else
+          match = @chemicalElements.filter (item) =>
+            item.latin == @$route.params.elementName
+
+          return match[0]
+
+
       electronicSequence: ->
         [posX, posY] = [[], []]
 
@@ -122,21 +135,6 @@
 
         else
           @chemical.electrons.config.join(' ')
-
-
-
-    beforeMount: ->
-      if @$route.params.data
-        @chemical = @$route.params.data
-
-      else
-        Axios_get 'https://felixluciano.github.io/mini-elementarium/public/chemical-elements.json'
-          .then ({data}) =>
-
-            match = data.filter (item) =>
-              item.name == @$route.path.slice(1)
-
-            @chemical = match[0]
 
 </script>
 

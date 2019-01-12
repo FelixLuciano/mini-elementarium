@@ -25,14 +25,9 @@
       'periodic-table': periodicTable
 
 
-    data: ->
-      chemicalElements: []
-
-
-    mounted: ->
-      Axios_get 'https://felixluciano.github.io/mini-elementarium/public/chemical-elements.json'
-        .then ({data}) =>
-          @chemicalElements = data
+    computed:
+      chemicalElements: ->
+        @$root.chemicalElements
 
 
 

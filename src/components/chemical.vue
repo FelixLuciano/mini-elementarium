@@ -2,7 +2,7 @@
 
   v-responsive.chemical--element(width='calc(100% / 18)' :aspect-ratio='1/1')
     v-avatar.chemical--element-button(:color='element.color' size='100%' to='/test' @click='openElement')
-      .chemical--title.blue-grey--text.text--darken-3(:class='{"body-2": $vuetify.breakpoint.xsOnly, "title": $vuetify.breakpoint.smAndUp}') {{ element.init }}
+      .chemical--title.blue-grey--text.text--darken-3(:class='{"body-2": $vuetify.breakpoint.xsOnly, "title": $vuetify.breakpoint.smAndUp}') {{ element.initials }}
   //--
 </template>
 
@@ -19,9 +19,9 @@
     methods:
       openElement: ->
         @$router.push
-          name: 'Element'
+          path: "#{@$route.meta.home}/#{@element.latin}"
           params:
-            elementName: @element.name
+            elementName: @element.latin
             data: @element
 
 </script>
