@@ -8,8 +8,13 @@
         v-img(width='32px' src='public/logo.svg')
         .pl-3.subheading.font-weight-black Mini Elementarium
 
-      v-btn.ma-0.mt-1.hidden-sm-and-up(flat large icon color='white' @click='goHome')
-        v-img(width='100%' src='public/logo.svg')
+
+      img.hidden-sm-and-up(width='32px' src='public/logo.svg')
+
+      transition(name='slide-x-transition')
+        v-btn#button--back-to-home.mt-5.ml-0.pl-2.pr-4(absolute flat round @click='goHome' v-show='!$route.meta.isHome')
+          v-icon(left) mdi-arrow-left
+          span {{ $root.texts.ui.back }}
 
       v-spacer
 
@@ -20,9 +25,10 @@
         v-icon mdi-information-variant
 
 
+
     v-container
 
-      transition(name='slide-y-reverse-transition' mode='out-in')
+      transition(name='fade-transition' mode='out-in')
         router-view
 
 
@@ -46,7 +52,7 @@
 
             v-list-tile(@click='showLanguageDialog=false; setLanguage("ru")')
               v-list-tile-content
-                v-list-tile-title.px-2 русский
+                v-list-tile-title.px-2 Pусский
 
         v-card-actions
           v-spacer
@@ -66,7 +72,8 @@
             v-divider.ml-3
 
           v-container
-            p.body-1 {{ $root.texts.ui.appDescription }}
+            p.body-1.text-xs-justify {{ $root.texts.ui.appDescription }}
+            .body-1 {{ $root.texts.ui.ConsultingByMaxim }}
             .body-1 Copyright © 2018 Luciano Felix
 
 

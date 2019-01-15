@@ -73,10 +73,18 @@
     overflow: auto
 
     .periodic-table--layout
-      min-width: 700px
-
       .separator
         width: calc(calc(100% / 18 * var(--size)))
         height: 10px
+
+
+  @media screen and (max-width: 599px)
+    .periodic-table--layout
+      min-width: 800px
+
+
+  @media screen and (min-width: 600px)
+    .periodic-table--layout
+      min-width: 700px
 
 </style>

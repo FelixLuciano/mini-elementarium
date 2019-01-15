@@ -2,7 +2,7 @@
 
   v-responsive.chemical--element(width='calc(100% / 18)' :aspect-ratio='1/1')
     v-avatar.chemical--element-button(:color='element.color' size='100%' to='/test' @click='openElement')
-      .chemical--title.blue-grey--text.text--darken-3(:class='{"body-2": $vuetify.breakpoint.xsOnly, "title": $vuetify.breakpoint.smAndUp}') {{ element.initials }}
+      .chemical--title.blue-grey--text.text--darken-3 {{ element.initials }}
   //--
 </template>
 
@@ -38,5 +38,15 @@
 
       .chemical--title
         position: absolute
+
+
+  @media screen and (max-width: 599px)
+    .chemical--title
+      font-size: 16px
+
+
+  @media screen and (min-width: 600px)
+    .chemical--title
+      font-size: 18px
 
 </style>

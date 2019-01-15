@@ -1,9 +1,12 @@
 {
   "ui": {
-    "appDescription": "An informative application of the elements of the periodic table",
+    "appDescription": "An informative application on the elements of the periodic table, with a colorful, intuitive and multi-linguistic interface for various devices.",
+    "ConsultingByMaxim": "Consulting by Maxim Lyutov Nikolaevich",
+    "chemicalElement": "Chemical element",
     "selectLanguage": "Choose language",
     "license": "License",
-    "close": "close"
+    "close": "Close",
+    "back": "Back"
   },
   "families": {
     "hydrogen": "Hydrogen / Non-metals",

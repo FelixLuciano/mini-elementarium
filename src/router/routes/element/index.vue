@@ -1,11 +1,11 @@
 <template lang='pug'>
 
-  v-layout.pt-3.pb-5(fill-height row wrap align-center)
+  v-layout(fill-height row wrap align-center)
 
     v-progress-linear(indeterminate :size='100' v-if='!chemical')
 
     template(v-if='chemical')
-      v-flex(xs12 v-if='$vuetify.breakpoint.xsOnly')
+      v-flex.pt-5(xs12 v-if='$vuetify.breakpoint.xsOnly')
 
         .display-3
           span(:style='{"color": chemical.color}') [
@@ -14,6 +14,8 @@
 
         .display-1 {{ chemical.name }}
           sup.grey--text.text--lighten-1 {{ chemical.atom }}
+
+        .subheading.grey--text.text--lighten-1.font-italic {{ chemical.latin }}
 
 
       v-flex.pt-4.pb-2(xs12 sm5 d-flex)
@@ -30,24 +32,39 @@
             | {{ chemical.initials }}
             span(:style='{"color": chemical.color}') ]
 
-            .display-1 {{ chemical.name }}
-              sup.grey--text.text--lighten-1 {{ chemical.atom }}
+          .display-1 {{ chemical.name }}
+            sup.grey--text.text--lighten-1 {{ chemical.atom }}
 
-            .subheading.grey--text.text--lighten-1.font-italic {{ chemical.latin }}
+          .subheading.grey--text.text--lighten-1.font-italic {{ chemical.latin }}
 
-        v-container.px-2.pb-0
-          .subheading.grey--text.text--lighten-1 {{ $root.texts.chemical.family }}
-          .headline(:style='{"color": chemical.color}') {{ $root.texts.families[chemical.family] }}
+        br
+        br
 
-          br
+        .subheading.grey--text.text--lighten-1 {{ $root.texts.chemical.family }}
+        .headline(:style='{"color": chemical.color}') {{ $root.texts.families[chemical.family] }}
 
-          .subheading.grey--text.text--lighten-1 {{ $root.texts.chemical.atomicMass }}
-          .headline(:style='{"color": chemical.color}') {{ chemical.mass }}
+        br
 
-          br
+        .subheading.grey--text.text--lighten-1 {{ $root.texts.chemical.atomicMass }}
+        .headline(:style='{"color": chemical.color}') {{ chemical.mass }}
 
-          .subheading.grey--text.text--lighten-1 {{ $root.texts.chemical.electronicConfiguration }}
-          .headline(:style='{"color": chemical.color}') {{ smallEletronicDistribution }}
+        br
+
+        .subheading.grey--text.text--lighten-1 {{ $root.texts.chemical.electronicConfiguration }}
+        .headline(:style='{"color": chemical.color}')
+          template(v-if='chemical.electrons.base')
+            |[{{ chemical.electrons.base }}]
+
+          template(v-for='item in electroConfig')
+            |  {{ item.layer + 1 }}{{ item.sublayerLetter }}
+            sup {{ item.num }}
+
+        br
+        br
+
+        v-btn.mx-0.pr-4(flat outline round color='grey' @click='openGoogle')
+          v-icon(left :color='chemical.color') mdi-google
+          span.font-weight-bold(:style='{"color": chemical.color}') Google
   //--
 </template>
 
@@ -82,6 +99,15 @@
           return match[0]
 
 
+      electroConfig: ->
+        @chemical.electrons.config.map (item) ->
+          [layer, sublayerLetter, num] = item.split(',')
+          [layer, num] = [Number(layer) - 1, Number(num)]
+          sublayer = ['s', 'p', 'd', 'f'].indexOf sublayerLetter
+
+          {layer, sublayer, sublayerLetter, num}
+
+
       electronicSequence: ->
         [posX, posY] = [[], []]
 
@@ -112,12 +138,8 @@
             [ x, y ] = [ posX[i], posY[i] ]
             count -= diagram[y][x] = if count < 2 + 4 * x then count else 2 + 4 * x
 
-        for item in @chemical.electrons.config
-          [layer, sublayer, num...] = item.split('')
-          [layer, num] = [Number(layer) - 1, Number(num.join(''))]
-
-          sublayer = ['s', 'p', 'd', 'f'].indexOf sublayer
-
+        for _, index in @chemical.electrons.config
+          {layer, sublayer, num} = @electroConfig[index]
           diagram[layer][sublayer] = num
 
         diagram
@@ -129,12 +151,13 @@
             a + b
 
 
-      smallEletronicDistribution: ->
-        if @chemical.electrons.base
-          "[#{ @chemical.electrons.base }] #{ @chemical.electrons.config.join(' ') }"
 
-        else
-          @chemical.electrons.config.join(' ')
+    methods:
+      openGoogle: ->
+        chemicalElementText = @$root.texts.ui.chemicalElement.replace(/\s+/gm, '+')
+        search = "#{ chemicalElementText }+#{ @chemical.name }"
+
+        window.open "https://www.google.com.br/search?q=#{search}"
 
 </script>
 
@@ -142,7 +165,7 @@
 
 <style lang='sass'>
 
-   #electron-diagram
-     flex-grow: 0 !important
+  #electron-diagram
+    flex-grow: 0 !important
 
 </style>

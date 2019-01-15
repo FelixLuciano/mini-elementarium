@@ -15,6 +15,7 @@ export default new Router
     component: getRoute 'home/index'
     meta:
       language: 'en'
+      isHome: true
       home: ''
 
   ,
@@ -23,6 +24,7 @@ export default new Router
     component: getRoute 'home/index'
     meta:
       language: 'en'
+      isHome: true
       home: '/en'
 
   ,
@@ -31,6 +33,7 @@ export default new Router
     component: getRoute 'home/index'
     meta:
       language: 'pt'
+      isHome: true
       home: '/pt'
 
   ,
@@ -39,6 +42,7 @@ export default new Router
     component: getRoute 'home/index'
     meta:
       language: 'ru'
+      isHome: true
       home: '/ru'
 
   ,
