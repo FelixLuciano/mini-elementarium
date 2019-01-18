@@ -65,6 +65,10 @@
         v-btn.mx-0.pr-4(flat outline round color='grey' @click='openGoogle')
           v-icon(left :color='chemical.color') mdi-google
           span.font-weight-bold(:style='{"color": chemical.color}') Google
+
+        v-btn.mx-0.ml-3.pr-4(flat outline round color='grey' @click='openWiki2')
+          v-icon(left :color='chemical.color') mdi-wikipedia
+          span.font-weight-bold(:style='{"color": chemical.color}') Wiki 2
   //--
 </template>
 
@@ -158,6 +162,17 @@
         search = "#{ chemicalElementText }+#{ @chemical.name }"
 
         window.open "https://www.google.com.br/search?q=#{search}"
+
+
+      openWiki2: ->
+        { language } = @$route.meta
+        { elementName } = @$route.params
+        url = "https://wiki2.org/#{ language }/#{ @chemical.name }"
+
+        if language == 'pt'
+          url = "https://pt.wiki2.org/wiki/#{ @chemical.name }"
+
+        window.open url
 
 </script>
 
