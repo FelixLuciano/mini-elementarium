@@ -13,13 +13,6 @@ import chemicalElements from '@/assets/chamical-elements'
 import languageBase from '@/assets/lang'
 
 
-const baseUrl = process.env.NODE_ENV === 'production' ? 'mini-elementarium' : ''
-
-function resolve(dir) {
-  return Path.join(baseUrl, dir)
-}
-
-
 Vue.config.productionTip = false
 
 
@@ -47,7 +40,7 @@ new Vue({
   methods: {
     updateLanguage()
     {
-      Axios_get(resolve(`static/lang/${this.language}.json`))
+      Axios_get(`static/lang/${this.language}.json`)
         .then(({ data }) => {
 
           this.texts = data.texts
