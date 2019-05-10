@@ -1,0 +1,56 @@
+{
+  "name": "mini-elementarium",
+  "description": "An informative application of the elements of the periodic table",
+  "version": "2.0.0",
+  "author": "Luciano Felix <luciano.felix.555@hotmail.com>",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/FelixLuciano/mini-elementarium#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixLuciano/mini-elementarium.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FelixLuciano/mini-elementarium/issues"
+  },
+  "main": "src/main.js",
+  "scripts": {
+    "serve": "vue-cli-service serve --open",
+    "build": "vue-cli-service build --dest 'docs'",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.3"
+  },
+  "devDependencies": {
+    "@fellow/eslint-plugin-coffee": "^0.4.13",
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-service": "^3.7.0",
+    "babel-eslint": "^10.0.1",
+    "coffee-loader": "^0.9.0",
+    "coffeescript": "^2.4.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "material-components-web": "^2.1.0",
+    "node-sass": "^4.12.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "sass-loader": "^7.1.0",
+    "vue-cli-plugin-coffee": "^0.1.0",
+    "vue-material-design-icons": "^3.2.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

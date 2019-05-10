@@ -1,0 +1,1654 @@
+[
+  {
+    "atom": 1,
+    "initials": "H",
+    "latin": "Hydrogenium",
+    "mass": 1.0079,
+    "family": {
+      "name": "hydrogen"
+    },
+    "color": "--color-light",
+    "electrons": {
+      "base": false,
+      "config":  ["1,s,1"]
+    }
+  },
+  {
+    "atom": 2,
+    "initials": "He",
+    "latin": "Helium",
+    "mass": 4.0026,
+    "family": {
+      "name": "nobleGases"
+    },
+    "color": "--color-sapphire-l1",
+    "electrons": {
+      "base": false,
+      "config":  ["1,s,2"]
+    }
+  },
+  {
+    "atom": 3,
+    "initials": "Li",
+    "latin": "Lithium",
+    "mass": 1.941,
+    "family": {
+      "name": "alkaliMetals"
+    },
+    "color": "--color-red-l1",
+    "electrons": {
+      "base": "He",
+      "config":  ["2,s,1"]
+    }
+  },
+  {
+    "atom": 4,
+    "initials": "Be",
+    "latin": "Beryllium",
+    "mass": 9.0122,
+    "family": {
+      "name": "alkalineEarthMetals"
+    },
+    "color": "--color-orange-l1",
+    "electrons": {
+      "base": "He",
+      "config":  ["2,s,2"]
+    }
+  },
+  {
+    "atom": 5,
+    "initials": "B",
+    "latin": "Borum",
+    "mass": 10.811,
+    "family": {
+      "name": "semimetals"
+    },
+    "color": "--color-lime-l1",
+    "electrons": {
+      "base": "He",
+      "config":  ["2,s,2", "2,p,1"]
+    }
+  },
+  {
+    "atom": 6,
+    "initials": "C",
+    "latin": "Carboneum",
+    "mass": 12.011,
+    "family": {
+      "name": "nonMetals"
+    },
+    "color": "--color-green-l1",
+    "electrons": {
+      "base": "He",
+      "config":  ["2,s,2", "2,p,2"]
+    }
+  },
+  {
+    "atom": 7,
+    "initials": "N",
+    "latin": "Nitrogenium",
+    "mass": 14.007,
+    "family": {
+      "name": "nonMetals"
+    },
+    "color": "--color-green-l1",
+    "electrons": {
+      "base": "He",
+      "config":  ["2,s,2", "2,p,3"]
+    }
+  },
+  {
+    "atom": 8,
+    "initials": "O",
+    "latin": "Oxygenium",
+    "mass": 15.999,
+    "family": {
+      "name": "nonMetals"
+    },
+    "color": "--color-green-l1",
+    "electrons": {
+      "base": "He",
+      "config":  ["2,s,2", "2,p,4"]
+    }
+  },
+  {
+    "atom": 9,
+    "initials": "F",
+    "latin": "Fluorum",
+    "mass": 18.998,
+    "family": {
+      "name": "halogens"
+    },
+    "color": "--color-blue-l1",
+    "electrons": {
+      "base": "He",
+      "config":  ["2,s,2", "2,p,5"]
+    }
+  },
+  {
+    "atom": 10,
+    "initials": "Ne",
+    "latin": "Neon",
+    "mass": 20.18,
+    "family": {
+      "name": "nobleGases"
+    },
+    "color": "--color-sapphire-l1",
+    "electrons": {
+      "base": "He",
+      "config":  ["2,s,2", "2,p,6"]
+    }
+  },
+  {
+    "atom": 11,
+    "initials": "Na",
+    "latin": "Natrium",
+    "mass": 22.99,
+    "family": {
+      "name": "alkaliMetals"
+    },
+    "color": "--color-red-l1",
+    "electrons": {
+      "base": "Ne",
+      "config":  ["3,s,1"]
+    }
+  },
+  {
+    "atom": 12,
+    "initials": "Mg",
+    "latin": "Magnesium",
+    "mass": 24.305,
+    "family": {
+      "name": "alkalineEarthMetals"
+    },
+    "color": "--color-orange-l1",
+    "electrons": {
+      "base": "Ne",
+      "config":  ["3,s,2"]
+    }
+  },
+  {
+    "atom": 13,
+    "initials": "Al",
+    "latin": "Aluminium",
+    "mass": 26.962,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Ne",
+      "config":  ["3,s,2", "3,p,1"]
+    }
+  },
+  {
+    "atom": 14,
+    "initials": "Si",
+    "latin": "Silicium",
+    "mass": 28.066,
+    "family": {
+      "name": "semimetals"
+    },
+    "color": "--color-lime-l1",
+    "electrons": {
+      "base": "Ne",
+      "config":  ["3,s,2", "3,p,2"]
+    }
+  },
+  {
+    "atom": 15,
+    "initials": "P",
+    "latin": "Phosphorus",
+    "mass": 30.974,
+    "family": {
+      "name": "nonMetals"
+    },
+    "color": "--color-green-l1",
+    "electrons": {
+      "base": "Ne",
+      "config":  ["3,s,2", "3,p,3"]
+    }
+  },
+  {
+    "atom": 16,
+    "initials": "S",
+    "latin": "Sulphur",
+    "mass": 32.065,
+    "family": {
+      "name": "nonMetals"
+    },
+    "color": "--color-green-l1",
+    "electrons": {
+      "base": "Ne",
+      "config":  ["3,s,2", "3,p,4"]
+    }
+  },
+  {
+    "atom": 17,
+    "initials": "Cl",
+    "latin": "Chlorum",
+    "mass": 35.453,
+    "family": {
+      "name": "halogens"
+    },
+    "color": "--color-blue-l1",
+    "electrons": {
+      "base": "Ne",
+      "config":  ["3,s,2", "3,p,5"]
+    }
+  },
+  {
+    "atom": 18,
+    "initials": "Ar",
+    "latin": "Argon",
+    "mass": 39.948,
+    "family": {
+      "name": "nobleGases"
+    },
+    "color": "--color-sapphire-l1",
+    "electrons": {
+      "base": "Ne",
+      "config":  ["3,s,2", "3,p,6"]
+    }
+  },
+  {
+    "atom": 19,
+    "initials": "K",
+    "latin": "Kalium",
+    "mass": 39.098,
+    "family": {
+      "name": "alkaliMetals"
+    },
+    "color": "--color-red-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["4,s,1"]
+    }
+  },
+  {
+    "atom": 20,
+    "initials": "Ca",
+    "latin": "Calcium",
+    "mass": 40.078,
+    "family": {
+      "name": "alkalineEarthMetals"
+    },
+    "color": "--color-orange-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["4,s,2"]
+    }
+  },
+  {
+    "atom": 21,
+    "initials": "Sc",
+    "latin": "Scandium",
+    "mass": 44.956,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,1", "4,s,2"]
+    }
+  },
+  {
+    "atom": 22,
+    "initials": "Ti",
+    "latin": "Titanium",
+    "mass": 74.88,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,2", "4,s,2"]
+    }
+  },
+  {
+    "atom": 23,
+    "initials": "V",
+    "latin": "Vanadium",
+    "mass": 50.942,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,3", "4,s,2"]
+    }
+  },
+  {
+    "atom": 24,
+    "initials": "Cr",
+    "latin": "Chromium",
+    "mass": 51.996,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,5", "4,s,1"]
+    }
+  },
+  {
+    "atom": 25,
+    "initials": "Mn",
+    "latin": "Manganum",
+    "mass": 54.938,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,5", "4,s,2"]
+    }
+  },
+  {
+    "atom": 26,
+    "initials": "Fe",
+    "latin": "Ferrum",
+    "mass": 55.845,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,6", "4,s,2"]
+    }
+  },
+  {
+    "atom": 27,
+    "initials": "Co",
+    "latin": "Cobaltum",
+    "mass": 58933,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,7", "4,s,2"]
+    }
+  },
+  {
+    "atom": 28,
+    "initials": "Ni",
+    "latin": "Niccolum",
+    "mass": 58.693,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,9", "4,s,1"]
+    }
+  },
+  {
+    "atom": 29,
+    "initials": "Cu",
+    "latin": "Cuprum",
+    "mass": 63.546,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,10", "4,s,1"]
+    }
+  },
+  {
+    "atom": 30,
+    "initials": "Zn",
+    "latin": "Zincum",
+    "mass": 65.38,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,10", "4,s,2"]
+    }
+  },
+  {
+    "atom": 31,
+    "initials": "Ga",
+    "latin": "Gallium",
+    "mass": 69.723,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,10", "4,s,2", "4,p,1"]
+    }
+  },
+  {
+    "atom": 32,
+    "initials": "Ge",
+    "latin": "Germanium",
+    "mass": 72.631,
+    "family": {
+      "name": "semimetals"
+    },
+    "color": "--color-lime-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,10", "4,s,2", "4,p,2"]
+    }
+  },
+  {
+    "atom": 33,
+    "initials": "As",
+    "latin": "Arsenicum",
+    "mass": 74.922,
+    "family": {
+      "name": "semimetals"
+    },
+    "color": "--color-lime-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,10", "4,s,2", "4,p,3"]
+    }
+  },
+  {
+    "atom": 34,
+    "initials": "Se",
+    "latin": "Selenium",
+    "mass": 78.971,
+    "family": {
+      "name": "nonMetals"
+    },
+    "color": "--color-green-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,10", "4,s,2", "4,p,4"]
+    }
+  },
+  {
+    "atom": 35,
+    "initials": "Br",
+    "latin": "Bromum",
+    "mass": 79.904,
+    "family": {
+      "name": "halogens"
+    },
+    "color": "--color-blue-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,10", "4,s,2", "4,p,5"]
+    }
+  },
+  {
+    "atom": 36,
+    "initials": "Kr",
+    "latin": "Krypton",
+    "mass": 84.768,
+    "family": {
+      "name": "nobleGases"
+    },
+    "color": "--color-sapphire-l1",
+    "electrons": {
+      "base": "Ar",
+      "config":  ["3,d,10", "4,s,2", "4,p,6"]
+    }
+  },
+  {
+    "atom": 37,
+    "initials": "Rb",
+    "latin": "Rubidium",
+    "mass": 85.468,
+    "family": {
+      "name": "alkaliMetals"
+    },
+    "color": "--color-red-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["5,s,1"]
+    }
+  },
+  {
+    "atom": 38,
+    "initials": "Sr",
+    "latin": "Strontium",
+    "mass": 87.62,
+    "family": {
+      "name": "alkalineEarthMetals"
+    },
+    "color": "--color-orange-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["5,s,2"]
+    }
+  },
+  {
+    "atom": 39,
+    "initials": "Y",
+    "latin": "Yttrium",
+    "mass": 88.906,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,1", "5,s,2"]
+    }
+  },
+  {
+    "atom": 40,
+    "initials": "Zr",
+    "latin": "Zirconium",
+    "mass": 91.224,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,2", "5,s,2"]
+    }
+  },
+  {
+    "atom": 41,
+    "initials": "Nb",
+    "latin": "Niobium",
+    "mass": 92.906,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,4", "5,s,1"]
+    }
+  },
+  {
+    "atom": 42,
+    "initials": "Mo",
+    "latin": "Molybdaenum",
+    "mass": 95.95,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,5", "5,s,1"]
+    }
+  },
+  {
+    "atom": 43,
+    "initials": "Tc",
+    "latin": "Technetium",
+    "mass": 98.907,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,5", "5,s,2"]
+    }
+  },
+  {
+    "atom": 44,
+    "initials": "Ru",
+    "latin": "Ruthenium",
+    "mass": 101.07,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,7", "5,s,1"]
+    }
+  },
+  {
+    "atom": 45,
+    "initials": "Rh",
+    "latin": "Rhodium",
+    "mass": 102.906,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,8", "5,s,1"]
+    }
+  },
+  {
+    "atom": 46,
+    "initials": "Pd",
+    "latin": "Palladium",
+    "mass": 106.42,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,10"]
+    }
+  },
+  {
+    "atom": 47,
+    "initials": "Ag",
+    "latin": "Argentum",
+    "mass": 107.868,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,10", "5,s,1"]
+    }
+  },
+  {
+    "atom": 48,
+    "initials": "Cd",
+    "latin": "Cadmium",
+    "mass": 112.414,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,10", "5,s,2"]
+    }
+  },
+  {
+    "atom": 49,
+    "initials": "In",
+    "latin": "Indium",
+    "mass": 114.818,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,10", "5,s,2", "5,p,1"]
+    }
+  },
+  {
+    "atom": 50,
+    "initials": "Sn",
+    "latin": "Stannum",
+    "mass": 118.711,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,10", "5,s,2", "5,p,2"]
+    }
+  },
+  {
+    "atom": 51,
+    "initials": "Sb",
+    "latin": "Stibium",
+    "mass": 121.76,
+    "family": {
+      "name": "semimetals"
+    },
+    "color": "--color-lime-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,10", "5,s,2", "5,p,3"]
+    }
+  },
+  {
+    "atom": 52,
+    "initials": "Te",
+    "latin": "Tellurium",
+    "mass": 127.6,
+    "family": {
+      "name": "semimetals"
+    },
+    "color": "--color-lime-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,10", "5,s,2", "5,p,4"]
+    }
+  },
+  {
+    "atom": 53,
+    "initials": "I",
+    "latin": "Iodium",
+    "mass": 126.904,
+    "family": {
+      "name": "halogens"
+    },
+    "color": "--color-blue-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,10", "5,s,2", "5,p,5"]
+    }
+  },
+  {
+    "atom": 54,
+    "initials": "Xe",
+    "latin": "Xenon",
+    "mass": 131.294,
+    "family": {
+      "name": "nobleGases"
+    },
+    "color": "--color-sapphire-l1",
+    "electrons": {
+      "base": "Kr",
+      "config":  ["4,d,10", "5,s,2", "5,p,6"]
+    }
+  },
+  {
+    "atom": 55,
+    "initials": "Cs",
+    "latin": "Caesium",
+    "mass": 132.905,
+    "family": {
+      "name": "alkaliMetals"
+    },
+    "color": "--color-red-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["6,s,1"]
+    }
+  },
+  {
+    "atom": 56,
+    "initials": "Ba",
+    "latin": "Barium",
+    "mass": 137.328,
+    "family": {
+      "name": "alkalineEarthMetals"
+    },
+    "color": "--color-orange-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["6,s,2"]
+    }
+  },
+  {
+    "atom": 57,
+    "initials": "La",
+    "latin": "Lanthanum",
+    "mass": 138.905,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["5,d,1", "6,s,2"]
+    }
+  },
+  {
+    "atom": 58,
+    "initials": "Ce",
+    "latin": "Cerium",
+    "mass": 140.116,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,1", "5,d,1", "6,s,2"]
+    }
+  },
+  {
+    "atom": 59,
+    "initials": "Pr",
+    "latin": "Praseodymium",
+    "mass": 140.908,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,3", "6,s,2"]
+    }
+  },
+  {
+    "atom": 60,
+    "initials": "Nd",
+    "latin": "Neodymium",
+    "mass": 144.243,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,4", "6,s,2"]
+    }
+  },
+  {
+    "atom": 61,
+    "initials": "Pm",
+    "latin": "Promethium",
+    "mass": 144.913,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,5", "6,s,2"]
+    }
+  },
+  {
+    "atom": 62,
+    "initials": "Sm",
+    "latin": "Samarium",
+    "mass": 150,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,6", "6,s,2"]
+    }
+  },
+  {
+    "atom": 63,
+    "initials": "Eu",
+    "latin": "Europium",
+    "mass": 151.964,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,7", "6,s,2"]
+    }
+  },
+  {
+    "atom": 64,
+    "initials": "Gd",
+    "latin": "Gadolinium",
+    "mass": 157.25,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,7", "5,d,1", "6,s,2"]
+    }
+  },
+  {
+    "atom": 65,
+    "initials": "Tb",
+    "latin": "Terbium",
+    "mass": 158.925,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,9", "6,s,2"]
+    }
+  },
+  {
+    "atom": 66,
+    "initials": "Dy",
+    "latin": "Dysprosium",
+    "mass": 162.5,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,10", "6,s,2"]
+    }
+  },
+  {
+    "atom": 67,
+    "initials": "Ho",
+    "latin": "Holmium",
+    "mass": 164.93,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,11", "6,s,2"]
+    }
+  },
+  {
+    "atom": 68,
+    "initials": "Er",
+    "latin": "Erbium",
+    "mass": 167.259,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,12", "6,s,2"]
+    }
+  },
+  {
+    "atom": 69,
+    "initials": "Tm",
+    "latin": "Thulium",
+    "mass": 168.934,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,13", "6,s,2"]
+    }
+  },
+  {
+    "atom": 70,
+    "initials": "Yb",
+    "latin": "Ytterbium",
+    "mass": 173.055,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "6,s,2"]
+    }
+  },
+  {
+    "atom": 71,
+    "initials": "Lu",
+    "latin": "Lutetium",
+    "mass": 174.967,
+    "family": {
+      "name": "lanthanoids"
+    },
+    "color": "--color-fuchsia-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,1", "6,s,2"]
+    }
+  },
+  {
+    "atom": 72,
+    "initials": "Hf",
+    "latin": "Hafnium",
+    "mass": 178.49,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,2", "6,s,2"]
+    }
+  },
+  {
+    "atom": 73,
+    "initials": "Ta",
+    "latin": "Tantalum",
+    "mass": 180.948,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,3", "6,s,2"]
+    }
+  },
+  {
+    "atom": 74,
+    "initials": "W",
+    "latin": "Wolframium",
+    "mass": 183.85,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,4", "6,s,2"]
+    }
+  },
+  {
+    "atom": 75,
+    "initials": "Re",
+    "latin": "Rhenium",
+    "mass": 186.207,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,5", "6,s,2"]
+    }
+  },
+  {
+    "atom": 76,
+    "initials": "Os",
+    "latin": "Osmium",
+    "mass": 190.23,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,6", "6,s,2"]
+    }
+  },
+  {
+    "atom": 77,
+    "initials": "Ir",
+    "latin": "Iridium",
+    "mass": 192.22,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,7", "6,s,2"]
+    }
+  },
+  {
+    "atom": 78,
+    "initials": "Pt",
+    "latin": "Platinum",
+    "mass": 195.08,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,9", "6,s,1"]
+    }
+  },
+  {
+    "atom": 79,
+    "initials": "Au",
+    "latin": "Aurum",
+    "mass": 196.967,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,10", "6,s,1"]
+    }
+  },
+  {
+    "atom": 80,
+    "initials": "Hg",
+    "latin": "Hydrargyrum",
+    "mass": 200.59,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,10", "6,s,2"]
+    }
+  },
+  {
+    "atom": 81,
+    "initials": "Tl",
+    "latin": "Thallium",
+    "mass": 204.383,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,10", "6,s,2", "6,p,1"]
+    }
+  },
+  {
+    "atom": 82,
+    "initials": "Pb",
+    "latin": "Plumbum",
+    "mass": 207.2,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,10", "6,s,2", "6,p,2"]
+    }
+  },
+  {
+    "atom": 83,
+    "initials": "Bi",
+    "latin": "Bismuthum",
+    "mass": 208.68,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,10", "6,s,2", "6,p,3"]
+    }
+  },
+  {
+    "atom": 84,
+    "initials": "Po",
+    "latin": "Polonium",
+    "mass": 208.982,
+    "family": {
+      "name": "semimetals"
+    },
+    "color": "--color-lime-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,10", "6,s,2", "6,p,4"]
+    }
+  },
+  {
+    "atom": 85,
+    "initials": "At",
+    "latin": "Astatum",
+    "mass": 209.987,
+    "family": {
+      "name": "halogens"
+    },
+    "color": "--color-blue-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,10", "6,s,2", "6,p,5"]
+    }
+  },
+  {
+    "atom": 86,
+    "initials": "Rn",
+    "latin": "Radon",
+    "mass": 22.018,
+    "family": {
+      "name": "nobleGases"
+    },
+    "color": "--color-sapphire-l1",
+    "electrons": {
+      "base": "Xe",
+      "config":  ["4,f,14", "5,d,10", "6,s,2", "6,p,6"]
+    }
+  },
+  {
+    "atom": 87,
+    "initials": "Fr",
+    "latin": "Francium",
+    "mass": 223.02,
+    "family": {
+      "name": "alkaliMetals"
+    },
+    "color": "--color-red-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["7,s,1"]
+    }
+  },
+  {
+    "atom": 88,
+    "initials": "Ra",
+    "latin": "Radium",
+    "mass": 226.025,
+    "family": {
+      "name": "alkalineEarthMetals"
+    },
+    "color": "--color-orange-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["7,s,2"]
+    }
+  },
+  {
+    "atom": 89,
+    "initials": "Ac",
+    "latin": "Actinium",
+    "mass": 227.028,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["6,d,1", "7,s,2"]
+    }
+  },
+  {
+    "atom": 90,
+    "initials": "Th",
+    "latin": "Thorium",
+    "mass": 232.038,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["6,d,2", "7,s,2"]
+    }
+  },
+  {
+    "atom": 91,
+    "initials": "Pa",
+    "latin": "Protactinium",
+    "mass": 231.036,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,2", "6,d,1", "7,s,2"]
+    }
+  },
+  {
+    "atom": 92,
+    "initials": "U",
+    "latin": "Uranium",
+    "mass": 238.029,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,3", "6,d,1", "7,s,2"]
+    }
+  },
+  {
+    "atom": 93,
+    "initials": "Np",
+    "latin": "Neptunium",
+    "mass": 237.048,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,4", "6,d,1", "7,s,2"]
+    }
+  },
+  {
+    "atom": 94,
+    "initials": "Pu",
+    "latin": "Plutonium",
+    "mass": 244.064,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,6", "7,s,2"]
+    }
+  },
+  {
+    "atom": 95,
+    "initials": "Am",
+    "latin": "Americium",
+    "mass": 243.061,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,7", "7,s,2"]
+    }
+  },
+  {
+    "atom": 96,
+    "initials": "Cm",
+    "latin": "Curium",
+    "mass": 247.07,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,7", "6,d,1", "7,s,2"]
+    }
+  },
+  {
+    "atom": 97,
+    "initials": "Bk",
+    "latin": "Berkelium",
+    "mass": 247.07,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,9", "7,s,2"]
+    }
+  },
+  {
+    "atom": 98,
+    "initials": "Cf",
+    "latin": "Californium",
+    "mass": 251.08,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,10", "7,s,2"]
+    }
+  },
+  {
+    "atom": 99,
+    "initials": "Es",
+    "latin": "Einsteinium",
+    "mass": 254,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,11", "7,s,2"]
+    }
+  },
+  {
+    "atom": 100,
+    "initials": "Fm",
+    "latin": "Fermium",
+    "mass": 257.095,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,12", "7,s,2"]
+    }
+  },
+  {
+    "atom": 101,
+    "initials": "Md",
+    "latin": "Mendelevium",
+    "mass": 258.1,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,13", "7,s,2"]
+    }
+  },
+  {
+    "atom": 102,
+    "initials": "No",
+    "latin": "Nobelium",
+    "mass": 259.101,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "7,s,2"]
+    }
+  },
+  {
+    "atom": 103,
+    "initials": "Lr",
+    "latin": "Lawrencium",
+    "mass": 262,
+    "family": {
+      "name": "actinoids"
+    },
+    "color": "--color-purple-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "7,s,2", "7,p,1"]
+    }
+  },
+  {
+    "atom": 104,
+    "initials": "Rf",
+    "latin": "Rutherfordium",
+    "mass": 261,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,2", "7,s,2"]
+    }
+  },
+  {
+    "atom": 105,
+    "initials": "Db",
+    "latin": "Dubnium",
+    "mass": 262,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,3", "7,s,2"]
+    }
+  },
+  {
+    "atom": 106,
+    "initials": "Sg",
+    "latin": "Seaborgium",
+    "mass": 266,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,4", "7,s,2"]
+    }
+  },
+  {
+    "atom": 107,
+    "initials": "Bh",
+    "latin": "Bohrium",
+    "mass": 264,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,5", "7,s,2"]
+    }
+  },
+  {
+    "atom": 108,
+    "initials": "Hs",
+    "latin": "Hassium",
+    "mass": 269,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,6", "7,s,2"]
+    }
+  },
+  {
+    "atom": 109,
+    "initials": "Mt",
+    "latin": "Meitnerium",
+    "mass": 278,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,7", "7,s,2"]
+    }
+  },
+  {
+    "atom": 110,
+    "initials": "Ds",
+    "latin": "Darmstadtium",
+    "mass": 281,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,8", "7,s,2"]
+    }
+  },
+  {
+    "atom": 111,
+    "initials": "Rg",
+    "latin": "Roentgenium",
+    "mass": 280,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,9", "7,s,2"]
+    }
+  },
+  {
+    "atom": 112,
+    "initials": "Cn",
+    "latin": "Copernicium",
+    "mass": 285,
+    "family": {
+      "name": "transitionMetals"
+    },
+    "color": "--color-yellow-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,10", "7,s,2"]
+    }
+  },
+  {
+    "atom": 113,
+    "initials": "Nh",
+    "latin": "Nihonium",
+    "mass": 286,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,10", "7,s,2", "7,p,1"]
+    }
+  },
+  {
+    "atom": 114,
+    "initials": "Fl",
+    "latin": "Flerovium",
+    "mass": 289,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,10", "7,s,2", "7,p,2"]
+    }
+  },
+  {
+    "atom": 115,
+    "initials": "Mc",
+    "latin": "Moscovium",
+    "mass": 289,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,10", "7,s,2", "7,p,3"]
+    }
+  },
+  {
+    "atom": 116,
+    "initials": "Lv",
+    "latin": "Livermorium",
+    "mass": 293,
+    "family": {
+      "name": "postTransitionMetals"
+    },
+    "color": "--color-cyan-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,10", "7,s,2", "7,p,4"]
+    }
+  },
+  {
+    "atom": 117,
+    "initials": "Ts",
+    "latin": "Tennessine",
+    "mass": 294,
+    "family": {
+      "name": "halogens"
+    },
+    "color": "--color-blue-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,10", "7,s,2", "7,p,5"]
+    }
+  },
+  {
+    "atom": 118,
+    "initials": "Og",
+    "latin": "Oganesson",
+    "mass": 294,
+    "family": {
+      "name": "nobleGases"
+    },
+    "color": "--color-sapphire-l1",
+    "electrons": {
+      "base": "Rn",
+      "config":  ["5,f,14", "6,d,10", "7,s,2", "7,p,6"]
+    }
+  }
+]
