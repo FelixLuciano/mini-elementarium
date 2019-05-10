@@ -13,7 +13,7 @@ import chemicalElements from '@/assets/chamical-elements'
 import languageBase from '@/assets/lang'
 
 
-const baseUrl = process.env.NODE_ENV === 'production' ? 'https://felixluciano.github.io/mini-elementarium' : __dirname
+const baseUrl = process.env.NODE_ENV === 'production' ? 'mini-elementarium' : ''
 
 function resolve(dir) {
   return Path.join(baseUrl, dir)
