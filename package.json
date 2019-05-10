@@ -16,7 +16,7 @@
   "main": "src/main.js",
   "scripts": {
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build --dest 'docs'",
+    "build": "vue-cli-service build --dest docs",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
