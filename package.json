@@ -1,7 +1,7 @@
 {
   "name": "mini-elementarium",
   "description": "An informative application of the elements of the periodic table",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": "Luciano Felix <luciano.felix.555@hotmail.com>",
   "license": "MIT",
   "private": true,
