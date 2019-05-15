@@ -175,7 +175,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Ne",
       "config":  ["3,s,2", "3,p,1"]
@@ -427,7 +427,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Ar",
       "config":  ["3,d,10", "4,s,2", "4,p,1"]
@@ -679,7 +679,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Kr",
       "config":  ["4,d,10", "5,s,2", "5,p,1"]
@@ -693,7 +693,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Kr",
       "config":  ["4,d,10", "5,s,2", "5,p,2"]
@@ -1127,7 +1127,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Xe",
       "config":  ["4,f,14", "5,d,10", "6,s,2", "6,p,1"]
@@ -1141,7 +1141,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Xe",
       "config":  ["4,f,14", "5,d,10", "6,s,2", "6,p,2"]
@@ -1155,7 +1155,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Xe",
       "config":  ["4,f,14", "5,d,10", "6,s,2", "6,p,3"]
@@ -1575,7 +1575,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Rn",
       "config":  ["5,f,14", "6,d,10", "7,s,2", "7,p,1"]
@@ -1589,7 +1589,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Rn",
       "config":  ["5,f,14", "6,d,10", "7,s,2", "7,p,2"]
@@ -1603,7 +1603,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Rn",
       "config":  ["5,f,14", "6,d,10", "7,s,2", "7,p,3"]
@@ -1617,7 +1617,7 @@
     "family": {
       "name": "postTransitionMetals"
     },
-    "color": "--color-cyan-l1",
+    "color": "--color-turquoise-l1",
     "electrons": {
       "base": "Rn",
       "config":  ["5,f,14", "6,d,10", "7,s,2", "7,p,4"]

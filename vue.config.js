@@ -12,7 +12,7 @@ module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '/mini-elementarium/' : '/',
   configureWebpack: {
     resolve: {
-      modules: ['bower_components'],
+      // modules: ['bower_components'],
       alias: {
         "icons": resolve('node_modules/vue-material-design-icons')
       }

@@ -7,7 +7,7 @@ const Path = require('path')
 import { get as Axios_get } from 'axios'
 
 
-import Prim from 'prim'
+import Prim from 'prim-css'
 
 import chemicalElements from '@/assets/chamical-elements'
 import languageBase from '@/assets/lang'
