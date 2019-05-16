@@ -28,27 +28,27 @@ self.__precacheManifest = [
     "url": "/mini-elementarium/css/chunk-vendors.f43205f9.css"
   },
   {
-    "revision": "0f31ad8301b2af96ce75",
-    "url": "/mini-elementarium/js/app.96fbb79a.js"
+    "revision": "67f8e25b531174fd9045",
+    "url": "/mini-elementarium/js/app.6ee7b6f9.js"
   },
   {
     "revision": "5e14770b12adfb2c66b5",
     "url": "/mini-elementarium/js/chunk-11ab159a.a29e1b79.js"
   },
   {
-    "revision": "d8e6ae06642624d5b79855953ab2a77c",
+    "revision": "ac72473157a35912cb5d59a0e8b2e4a4",
     "url": "/mini-elementarium/index.html"
-  },
-  {
-    "revision": "406a9014f594fa9793c0f379620512da",
-    "url": "/mini-elementarium/static/lang/pt.json"
   },
   {
     "revision": "13ab7e0e51ef8da0ec2fd9cdf44ef658",
     "url": "/mini-elementarium/static/lang/en.json"
   },
   {
-    "revision": "0f31ad8301b2af96ce75",
+    "revision": "406a9014f594fa9793c0f379620512da",
+    "url": "/mini-elementarium/static/lang/pt.json"
+  },
+  {
+    "revision": "67f8e25b531174fd9045",
     "url": "/mini-elementarium/css/app.fec04322.css"
   },
   {
