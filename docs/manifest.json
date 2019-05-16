@@ -6,8 +6,7 @@
   "background_color": "#333333",
   "display": "standalone",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
+  "start_url": ".",
   "icons": [
     {
       "src": "/mini-elementarium/img/icons/icon-default.png",
