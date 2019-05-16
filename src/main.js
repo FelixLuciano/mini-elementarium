@@ -17,7 +17,7 @@ Vue.config.productionTip = false
 
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-    navigator.serviceWorker.register('/service-worker.js')
+    navigator.serviceWorker.register('mini-elementarium/service-worker.js')
   })
 }
 
