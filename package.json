@@ -30,6 +30,7 @@
     "@fellow/eslint-plugin-coffee": "^0.4.13",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-eslint": "^3.7.0",
+    "@vue/cli-plugin-pwa": "^3.7.0",
     "@vue/cli-service": "^3.7.0",
     "babel-eslint": "^10.0.1",
     "coffee-loader": "^0.9.0",

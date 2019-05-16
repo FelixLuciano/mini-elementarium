@@ -3,17 +3,23 @@ import App from './App.vue'
 
 import router from './router'
 
-const Path = require('path')
 import { get as Axios_get } from 'axios'
 
 
-import Prim from 'prim-css'
+import 'prim-css'
 
 import chemicalElements from '@/assets/chamical-elements'
 import languageBase from '@/assets/lang'
 
 
 Vue.config.productionTip = false
+
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/service-worker.js')
+  })
+}
 
 
 new Vue({
@@ -58,9 +64,9 @@ new Vue({
   watch: {
     language: 'updateLanguage',
 
-    $route(to, from, next)
+    $route(route)
     {
-      const { language } = to.meta
+      const { language } = route.meta
 
       if(language) this.language = language
     }

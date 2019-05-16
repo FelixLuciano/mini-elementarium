@@ -1,0 +1,22 @@
+{
+  "name": "Mini Elementarium",
+  "short_name": "Mini Elementarium",
+  "description": "An informative application of the elements of the periodic table",
+  "theme_color": "#FDD835",
+  "background_color": "#333333",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "/mini-elementarium/img/icons/icon-default.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "/mini-elementarium/img/icons/icon-default-large.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
