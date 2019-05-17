@@ -30,7 +30,7 @@ module.exports = {
 
   pwa: {
     name: 'Mini Elementarium',
-    themeColor: '#FDD835',
+    themeColor: '#333333',
     msTileColor: '#333333',
     appleMobileWebAppStatusBarStyle: 'black-translucent',
     iconPaths: {

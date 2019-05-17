@@ -2,7 +2,7 @@
   "name": "Mini Elementarium",
   "short_name": "Mini Elementarium",
   "description": "An informative application of the elements of the periodic table",
-  "theme_color": "#FDD835",
+  "theme_color": "#333333",
   "background_color": "#333333",
   "display": "standalone",
   "orientation": "portrait",

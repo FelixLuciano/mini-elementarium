@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/mini-elementarium/js/chunk-11ab159a.a29e1b79.js"
   },
   {
-    "revision": "ac72473157a35912cb5d59a0e8b2e4a4",
+    "revision": "0066ab8efe0803ec8975390c63669467",
     "url": "/mini-elementarium/index.html"
   },
   {
