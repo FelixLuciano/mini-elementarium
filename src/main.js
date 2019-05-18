@@ -2,14 +2,14 @@ import Vue from 'vue'
 import App from './App.vue'
 
 import router from './router'
+import i18n from './i18n'
 
 import { get as Axios_get } from 'axios'
 
 
 import 'prim-css'
 
-import chemicalElements from '@/assets/chamical-elements'
-import languageBase from '@/assets/lang'
+import chemicalElements from '@/assets/chamical-elements.yml'
 
 
 Vue.config.productionTip = false
@@ -30,57 +30,46 @@ new Vue({
     return h(App)
   },
 
-
   data: {
     chemicals: chemicalElements,
-
-    language: 'en',
-    texts: languageBase,
-
-    hasLoaded: false,
-
     historyRegister: false
   },
-
 
   methods: {
     updateLanguage()
     {
-      Axios_get(`static/lang/${this.language}.json`)
-        .then(({ data }) => {
-
-          this.texts = data.texts
-
-          data.chemicals.forEach((chemical, index) => {
-            this.$set(this.chemicals[index], 'name', data.chemicals[index])
-            this.$set(this.chemicals[index].family, 'text', data.texts.families[this.chemicals[index].family.name])
-          })
-
-          this.hasLoaded = true
-        })
+      this.$t('chemicals').forEach((chemical, index) => {
+        this.$set(this.chemicals[index], 'name', chemical)
+        this.$set(this.chemicals[index].family, 'text', this.$t('views.chemical_info.families')[this.chemicals[index].family.name])
+      })
     }
   },
 
   watch: {
-    language: 'updateLanguage',
-
     $route(route)
     {
       const { language } = route.meta
 
-      if(language) this.language = language
+      if(language) this.$i18n.locate = language
     }
   },
 
-
-
-  beforeMount()
+  mounted()
   {
-    if(this.$route.meta.language) this.language = this.$route.meta.language
+    console.log(this.$route)
+    if(this.$route.meta.language)
+    {
+      this.$i18n.locale = this.$route.meta.language
+    }
+
+    else if(window.localStorage.getItem('language'))
+      this.$i18n.locale = window.localStorage.getItem('language')
+
+    else window.localStorage.setItem('language', 'en-US')
 
     this.updateLanguage()
   },
 
-
+  i18n,
   router
 })

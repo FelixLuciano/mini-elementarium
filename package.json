@@ -1,29 +1,22 @@
 {
   "name": "mini-elementarium",
-  "description": "An informative application of the elements of the periodic table",
-  "version": "2.0.1",
-  "author": "Luciano Felix <luciano.felix.555@hotmail.com>",
-  "license": "MIT",
+  "version": "2.1.0",
   "private": true,
-  "homepage": "https://github.com/FelixLuciano/mini-elementarium#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FelixLuciano/mini-elementarium.git"
-  },
-  "bugs": {
-    "url": "https://github.com/FelixLuciano/mini-elementarium/issues"
-  },
-  "main": "src/main.js",
+  "description": "An informative application of the elements of the periodic table",
+  "author": "Luciano Felix <luciano.felix.555@hotmail.com>",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build --dest docs",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
   },
+  "main": "src/main.js",
   "dependencies": {
     "axios": "^0.18.0",
     "core-js": "^2.6.5",
     "prim-css": "^1.2.0",
     "vue": "^2.6.10",
+    "vue-i18n": "^8.0.0",
     "vue-router": "^3.0.3"
   },
   "devDependencies": {
@@ -37,12 +30,14 @@
     "coffeescript": "^2.4.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "material-components-web": "^2.1.0",
+    "material-components-web": "^2.2.0",
     "node-sass": "^4.12.0",
     "pug": "^2.0.3",
     "pug-plain-loader": "^1.0.0",
     "sass-loader": "^7.1.0",
     "vue-cli-plugin-coffee": "^0.1.0",
+    "vue-cli-plugin-i18n": "^0.6.0",
+    "vue-cli-plugin-yaml": "^1.0.1",
     "vue-material-design-icons": "^3.2.0",
     "vue-template-compiler": "^2.5.21"
   },
@@ -54,5 +49,14 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/FelixLuciano/mini-elementarium/issues"
+  },
+  "homepage": "https://github.com/FelixLuciano/mini-elementarium#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixLuciano/mini-elementarium.git"
+  }
 }

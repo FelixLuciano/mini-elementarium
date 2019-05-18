@@ -31,7 +31,7 @@ nav.row.full-row.py-1.px-md-3.flex.no-wrap
           input#search-input.mdc-text-field__input.px-3(
             type='text'
             spellcheck='false'
-            :placeholder='$root.texts.ui.search'
+            :placeholder="$t('user_interface.search')"
             v-model='search'
             @keyup.esc='closeSearchbar'
             @keyup.enter='blurSearchbar'
@@ -58,8 +58,6 @@ import infoIcon from 'icons/InformationVariant'
 import closeIcon from 'icons/Close'
 
 import languageDialog from '@/components/language-dialog.vue'
-import { MDCTextFieldIcon } from '@material/textfield/icon'
-import { MDCTextField } from '@material/textfield'
 
 
 export default
@@ -93,7 +91,7 @@ export default
       @$root.historyRegister = true
 
       @$router.push
-        name: "about #{@$root.language}"
+        name: "about #{@$i18n.locale}"
 
 
 
@@ -102,12 +100,6 @@ export default
 
     search: ->
       @$emit 'search', @search
-
-
-  mounted: ->
-    document.addEventListener 'DOMContentLoaded', ->
-      new MDCTextField document.querySelector '.mdc-text-field'
-      new MDCTextFieldIcon document.querySelector '.mdc-text-field__icon'
 
 
   components:

@@ -8,8 +8,11 @@ function resolve (dir) {
   return Path.join(__dirname, dir)
 }
 
+
+
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '/mini-elementarium/' : '/',
+
   configureWebpack: {
     resolve: {
       alias: {
@@ -42,5 +45,14 @@ module.exports = {
     }
   },
 
-  productionSourceMap: false
+  productionSourceMap: false,
+
+  pluginOptions: {
+    i18n: {
+      locale: 'en',
+      fallbackLocale: 'en',
+      localeDir: 'locales',
+      enableInSFC: false
+    }
+  }
 }

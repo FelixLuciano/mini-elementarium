@@ -1,19 +1,26 @@
 <template lang='pug'>
 
-#app.container.fill-screen.px-2.px-md-0(v-if='$root.hasLoaded')
+#app.container.fill-screen.px-2.px-md-0
 
   navbar(@search='search = $event')
 
 
   transition(name='transition-slide-x')
-    button#back-button.mdc-button.ml-md-2.c-white(@click='back' v-show='$route.meta.backButton')
+    button#back-button.mdc-button.ml-md-2.c-white(@click='home' v-show='showHomeButton')
 
-      icon-periodic-table.mdc-button__icon(v-if='history < 1' style='height: 24px;')
-      icon-arrow-left.mdc-button__icon(v-if='history > 0' style='height: 24px;')
+      icon-periodic-table.mdc-button__icon(style='height: 24px;')
 
       span.mdc-button__label.px-3.w-bold
-        template(v-if='history < 1') {{ $root.texts.ui.home }}
-        template(v-if='history > 0') {{ $root.texts.ui.back }}
+        template {{ $t('user_interface.home') }}
+
+
+  transition(name='transition-slide-x')
+    button#back-button.mdc-button.ml-md-2.c-white(@click='back' v-show='showBackButton')
+
+      icon-arrow-left.mdc-button__icon(style='height: 24px;')
+
+      span.mdc-button__label.px-3.w-bold
+        template {{ $t('user_interface.back') }}
 
 
   transition(name='transition-page' mode='out-in')
@@ -39,25 +46,30 @@ export default
 
 
   computed:
+    showHomeButton: ->
+      this.history < 1 and @$route.meta.navigationButton
+
+    showBackButton: ->
+      this.history > 0 and @$route.meta.navigationButton
+
     routeProps: ->
       search: @search
-      language: @$root.language
       chemicals: @$root.chemicals
       class:
-        'has-back-button': @$route.meta.backButton
+        'has-navigation-button': @$route.meta.navigationButton
 
 
   methods:
+    home: ->
+      @$root.historyRegister = false
+
+      @$router.replace '/'
+
+
     back: ->
       @$root.historyRegister = false
 
-      if @history > 1
-        @$router.go -1
-        @history -= 1
-
-      else
-        @$router.push '/'
-        @history = 0
+      @$router.go -1
 
 
   watch:
@@ -107,7 +119,7 @@ body
 
 
 
-section.has-back-button
+section.has-navigation-button
   margin-top: 56px
 
 

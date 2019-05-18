@@ -177,7 +177,7 @@ export default
 
       &:before
         content: ''
-        padding: .225em
+        padding: .35rem
         background-color: var(--element-color)
         border: 3px solid var(--color-background)
         border-radius: 50%

@@ -1,6 +1,6 @@
 <template lang='pug'>
 
-section#element-info.row.flex.justify-center.align-start.pb-3(:style="{'--element-color': `var(${element.color})`}")
+section#element-info.row.flex.justify-center.align-start.pb-3(:style="{'--element-color': `var(${element.color.secondary})`}")
 
   .col-12.h-sm-a.select-text
     .l-25
@@ -35,17 +35,17 @@ section#element-info.row.flex.justify-center.align-start.pb-3(:style="{'--elemen
 
     br
 
-    .l-09.l-sm-07.c-gray-l3 {{ $root.texts.chemical.family }}
+    .l-09.l-sm-07.c-gray-l3 {{ $t('views.chemical_info.family') }}
     .l-12.l-sm-10.element-color {{ element.family.text }}
 
     br
 
-    .l-09.l-sm-07.c-gray-l3 {{ $root.texts.chemical.atomicMass }}
+    .l-09.l-sm-07.c-gray-l3 {{ $t('views.chemical_info.atomic_mass') }}
     .l-12.l-sm-10.element-color {{ element.mass }}
 
     br
 
-    .l-09.l-sm-07.c-gray-l3 {{ $root.texts.chemical.electronicConfiguration }}
+    .l-09.l-sm-07.c-gray-l3 {{ $t('views.chemical_info.electronic_config') }}
     .l-12.l-sm-10.element-color
       template(v-if='element.electrons.base')
         span [{{ element.electrons.base }}]
@@ -59,7 +59,7 @@ section#element-info.row.flex.justify-center.align-start.pb-3(:style="{'--elemen
 
     br.no-select
 
-    .pb-2.l-09.l-sm-07.c-gray-l3.no-select {{ $root.texts.ui.seeMoreOn }}
+    .pb-2.l-09.l-sm-07.c-gray-l3.no-select {{ $t('views.chemical_info.see_more_on') }}
 
     a.mdc-button.mdc-button--outlined.mr-2(:href='googleLink' target='_blank')
       google-icon.mdc-button__icon(style='height: 24px;')
@@ -85,10 +85,6 @@ export default
 
 
   props:
-    language:
-      type: String
-      default: 'en'
-
     chemicals:
       type: Array
       default: []
@@ -119,7 +115,7 @@ export default
 
 
     googleLink: ->
-      chemicalElementText = @$root.texts.ui.chemicalElement.replace(/\s+/gm, '+')
+      chemicalElementText = @$t('views.chemical_info.chemical_element').replace(/\s+/gm, '+')
       search = "#{ chemicalElementText }+#{ @element.name }"
 
       "https://www.google.com.br/search?q=#{search}"

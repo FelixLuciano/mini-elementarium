@@ -4,18 +4,18 @@ section#periodic-table.row-fill.flex.centralize
   .row(:class="{'search-mode': search}")
 
     template(v-for='element in chemicals')
-      .col.ratio-square.circle.pointer(v-bind='getChemical(element)' @click='openElementInfo(element)')
-        .flex.centralize
+      .chemical.col.ratio-square.circle.pointer(v-bind='getChemical(element)' @click='openElementInfo(element)')
+        .circle.flex.centralize
           span.l-08.c-gray-d9 {{ element.initials }}
             sup.l-05.w-bold {{ element.atom }}
 
     .col.ratio-square(style="grid-area: _5")
       .flex.centralize
-        dots-horizontal-icon.c-fuchsia-l1.pt-2
+        dots-horizontal-icon.c-fuchsia-l2.pt-2
 
     .col.ratio-square(style="grid-area: _6")
       .flex.centralize
-        dots-horizontal-icon.c-purple-l1.pt-2
+        dots-horizontal-icon.c-purple-l2.pt-2
 
     .col.pr-2.flex.align-center(v-for='i in 7' :style="{'grid-area': `p${i}`}")
       span.l-05.c-gray-d2 {{ i }}
@@ -50,7 +50,7 @@ export default
     getChemical: (element) ->
       style:
         'grid-area': element.initials
-        'background': "var(#{element.color})"
+        'background': "var(#{element.color.primary})"
 
       class:
         active: @search && element.active
@@ -114,6 +114,9 @@ export default
 
 <style lang='sass'>
 
+@import '@material/animation/_functions.scss'
+
+
 #periodic-table
   overflow-x: auto
 
@@ -127,10 +130,16 @@ export default
       opacity: .4
 
 
-    .col
-      transition: opacity .3s
+    .chemical
+      transition: mdc-animation-standard(all, 175ms)
 
       &.active
         opacity: 1
+
+      &:hover > div
+        background: rgba(#FFF, .3)
+
+      & > div
+        transition: mdc-animation-standard(all, 175ms)
 
 </style>

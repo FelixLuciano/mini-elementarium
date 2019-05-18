@@ -13,6 +13,7 @@ export default new Router({
       name: 'home',
       component: periodicTable,
       meta: {
+        language: window.localStorage.getItem('language'),
         searchBar: true
       }
     },
@@ -21,105 +22,105 @@ export default new Router({
 
     {
       path: '/',
-      name: 'home en',
+      name: 'home en-US',
       component: () => import('@/views/periodic-table.vue'),
       meta: {
-        language: 'en',
+        language: 'en-US',
         searchBar: true
       }
     },
     {
-      path: '/en',
+      path: '/en-US',
       redirect: {
-        name: 'home en'
+        name: 'home en-US'
       }
     },
     {
       path: '/about',
-      name: 'about en',
+      name: 'about en-US',
       component: () => import('@/views/about.vue'),
       meta: {
-        language: 'en',
-        backButton: true
+        language: 'en-US',
+        navigationButton: true
       },
     },
     {
       path: '/en/:selector',
-      name: 'element en',
+      name: 'element en-US',
       component: () => import('@/views/element-info.vue'),
       meta: {
-        language: 'en',
-        backButton: true
+        language: 'en-US',
+        navigationButton: true
       }
     },
 
 
     {
       path: '/',
-      name: 'home pt',
+      name: 'home pt-BR',
       component: () => import('@/views/periodic-table.vue'),
       meta: {
-        language: 'pt',
+        language: 'pt-BR',
         searchBar: true
       }
     },
     {
-      path: '/pt',
+      path: '/pt-BR',
       redirect: {
-        name: 'home pt'
+        name: 'home pt-BR'
       }
     },
     {
       path: '/sobre',
-      name: 'about pt',
+      name: 'about pt-BR',
       component: () => import('@/views/about.vue'),
       meta: {
-        language: 'pt',
-        backButton: true
+        language: 'pt-BR',
+        navigationButton: true
       }
     },
     {
-      path: '/pt/:selector',
-      name: 'element pt',
+      path: '/pt-BR/:selector',
+      name: 'element pt-BR',
       component: () => import('@/views/element-info.vue'),
       meta: {
-        language: 'pt',
-        backButton: true
+        language: 'pt-BR',
+        navigationButton: true
       }
     },
 
 
     {
       path: '/',
-      name: 'home ru',
+      name: 'home ru-RU',
       component: () => import('@/views/periodic-table.vue'),
       meta: {
-        language: 'ru',
+        language: 'ru-RU',
         searchBar: true
       }
     },
     {
-      path: '/ru',
+      path: '/ru-RU',
       redirect: {
-        name: 'home ru'
+        name: 'home ru-RU'
       }
     },
     {
       path: '/около',
-      name: 'about ru',
+      name: 'about ru-RU',
       component: () => import('@/views/about.vue'),
       meta: {
-        language: 'ru',
-        backButton: true
+        language: 'ru-RU',
+        navigationButton: true
       }
     },
     {
-      path: '/ru/:selector',
-      name: 'element ru',
+      path: '/ru-RU/:selector',
+      name: 'element ru-RU',
       component: () => import('@/views/element-info.vue'),
       meta: {
-        language: 'ru',
-        backButton: true
+        language: 'ru-RU',
+        navigationButton: true
       }
     },
 
@@ -130,13 +131,15 @@ export default new Router({
       name: 'element',
       component: () => import('@/views/element-info.vue'),
       meta: {
-        backButton: true
+        navigationButton: true
       }
     },
 
     {
       path: '*',
-      redirect: '/'
+      redirect: {
+        name: 'home'
+      }
     }
   ]
 })
