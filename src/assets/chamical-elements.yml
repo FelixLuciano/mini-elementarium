@@ -3,8 +3,7 @@
   initials: H
   latin: Hydrogenium
   mass: 1.0079
-  family:
-    name: hydrogen
+  family: hydrogen
   color:
     primary: --color-light
     secondary: --color-light
@@ -18,8 +17,7 @@
   initials: He
   latin: Helium
   mass: 4.0026
-  family:
-    name: noble_gases
+  family: noble_gases
   color:
     primary: --color-sapphire-l1
     secondary: --color-sapphire-l2
@@ -33,8 +31,7 @@
   initials: Li
   latin: Lithium
   mass: 1.941
-  family:
-    name: alkali_metals
+  family: alkali_metals
   color:
     primary: --color-red-l1
     secondary: --color-red-l2
@@ -48,8 +45,7 @@
   initials: Be
   latin: Beryllium
   mass: 9.0122
-  family:
-    name: alkaline_marth_metals
+  family: alkaline_marth_metals
   color:
     primary: --color-orange-l1
     secondary: --color-orange-l2
@@ -63,8 +59,7 @@
   initials: B
   latin: Borum
   mass: 10.811
-  family:
-    name: semi_metals
+  family: semi_metals
   color:
     primary: --color-lime-l1
     secondary: --color-lime-l2
@@ -79,8 +74,7 @@
   initials: C
   latin: Carboneum
   mass: 12.011
-  family:
-    name: non_metals
+  family: non_metals
   color:
     primary: --color-green-l1
     secondary: --color-green-l2
@@ -95,8 +89,7 @@
   initials: N
   latin: Nitrogenium
   mass: 14.007
-  family:
-    name: non_metals
+  family: non_metals
   color:
     primary: --color-green-l1
     secondary: --color-green-l2
@@ -111,8 +104,7 @@
   initials: O
   latin: Oxygenium
   mass: 15.999
-  family:
-    name: non_metals
+  family: non_metals
   color:
     primary: --color-green-l1
     secondary: --color-green-l2
@@ -127,8 +119,7 @@
   initials: F
   latin: Fluorum
   mass: 18.998
-  family:
-    name: halogens
+  family: halogens
   color:
     primary: --color-blue-l1
     secondary: --color-blue-l2
@@ -143,8 +134,7 @@
   initials: Ne
   latin: Neon
   mass: 20.18
-  family:
-    name: noble_gases
+  family: noble_gases
   color:
     primary: --color-sapphire-l1
     secondary: --color-sapphire-l2
@@ -159,8 +149,7 @@
   initials: Na
   latin: Natrium
   mass: 22.99
-  family:
-    name: alkali_metals
+  family: alkali_metals
   color:
     primary: --color-red-l1
     secondary: --color-red-l2
@@ -174,8 +163,7 @@
   initials: Mg
   latin: Magnesium
   mass: 24.305
-  family:
-    name: alkaline_marth_metals
+  family: alkaline_marth_metals
   color:
     primary: --color-orange-l1
     secondary: --color-orange-l2
@@ -189,8 +177,7 @@
   initials: Al
   latin: Aluminium
   mass: 26.962
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -205,8 +192,7 @@
   initials: Si
   latin: Silicium
   mass: 28.066
-  family:
-    name: semi_metals
+  family: semi_metals
   color:
     primary: --color-lime-l1
     secondary: --color-lime-l2
@@ -221,8 +207,7 @@
   initials: P
   latin: Phosphorus
   mass: 30.974
-  family:
-    name: non_metals
+  family: non_metals
   color:
     primary: --color-green-l1
     secondary: --color-green-l2
@@ -237,8 +222,7 @@
   initials: S
   latin: Sulphur
   mass: 32.065
-  family:
-    name: non_metals
+  family: non_metals
   color:
     primary: --color-green-l1
     secondary: --color-green-l2
@@ -253,8 +237,7 @@
   initials: Cl
   latin: Chlorum
   mass: 35.453
-  family:
-    name: halogens
+  family: halogens
   color:
     primary: --color-blue-l1
     secondary: --color-blue-l2
@@ -269,8 +252,7 @@
   initials: Ar
   latin: Argon
   mass: 39.948
-  family:
-    name: noble_gases
+  family: noble_gases
   color:
     primary: --color-sapphire-l1
     secondary: --color-sapphire-l2
@@ -285,8 +267,7 @@
   initials: K
   latin: Kalium
   mass: 39.098
-  family:
-    name: alkali_metals
+  family: alkali_metals
   color:
     primary: --color-red-l1
     secondary: --color-red-l2
@@ -300,8 +281,7 @@
   initials: Ca
   latin: Calcium
   mass: 40.078
-  family:
-    name: alkaline_marth_metals
+  family: alkaline_marth_metals
   color:
     primary: --color-orange-l1
     secondary: --color-orange-l2
@@ -315,8 +295,7 @@
   initials: Sc
   latin: Scandium
   mass: 44.956
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -331,8 +310,7 @@
   initials: Ti
   latin: Titanium
   mass: 74.88
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -347,8 +325,7 @@
   initials: V
   latin: Vanadium
   mass: 50.942
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -363,8 +340,7 @@
   initials: Cr
   latin: Chromium
   mass: 51.996
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -379,8 +355,7 @@
   initials: Mn
   latin: Manganum
   mass: 54.938
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -395,8 +370,7 @@
   initials: Fe
   latin: Ferrum
   mass: 55.845
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -411,8 +385,7 @@
   initials: Co
   latin: Cobaltum
   mass: 58933
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -427,8 +400,7 @@
   initials: Ni
   latin: Niccolum
   mass: 58.693
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -443,8 +415,7 @@
   initials: Cu
   latin: Cuprum
   mass: 63.546
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -459,8 +430,7 @@
   initials: Zn
   latin: Zincum
   mass: 65.38
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -475,8 +445,7 @@
   initials: Ga
   latin: Gallium
   mass: 69.723
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -492,8 +461,7 @@
   initials: Ge
   latin: Germanium
   mass: 72.631
-  family:
-    name: semi_metals
+  family: semi_metals
   color:
     primary: --color-lime-l1
     secondary: --color-lime-l2
@@ -509,8 +477,7 @@
   initials: As
   latin: Arsenicum
   mass: 74.922
-  family:
-    name: semi_metals
+  family: semi_metals
   color:
     primary: --color-lime-l1
     secondary: --color-lime-l2
@@ -526,8 +493,7 @@
   initials: Se
   latin: Selenium
   mass: 78.971
-  family:
-    name: non_metals
+  family: non_metals
   color:
     primary: --color-green-l1
     secondary: --color-green-l2
@@ -543,8 +509,7 @@
   initials: Br
   latin: Bromum
   mass: 79.904
-  family:
-    name: halogens
+  family: halogens
   color:
     primary: --color-blue-l1
     secondary: --color-blue-l2
@@ -560,8 +525,7 @@
   initials: Kr
   latin: Krypton
   mass: 84.768
-  family:
-    name: noble_gases
+  family: noble_gases
   color:
     primary: --color-sapphire-l1
     secondary: --color-sapphire-l2
@@ -577,8 +541,7 @@
   initials: Rb
   latin: Rubidium
   mass: 85.468
-  family:
-    name: alkali_metals
+  family: alkali_metals
   color:
     primary: --color-red-l1
     secondary: --color-red-l2
@@ -592,8 +555,7 @@
   initials: Sr
   latin: Strontium
   mass: 87.62
-  family:
-    name: alkaline_marth_metals
+  family: alkaline_marth_metals
   color:
     primary: --color-orange-l1
     secondary: --color-orange-l2
@@ -607,8 +569,7 @@
   initials: Y
   latin: Yttrium
   mass: 88.906
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -623,8 +584,7 @@
   initials: Zr
   latin: Zirconium
   mass: 91.224
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -639,8 +599,7 @@
   initials: Nb
   latin: Niobium
   mass: 92.906
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -655,8 +614,7 @@
   initials: Mo
   latin: Molybdaenum
   mass: 95.95
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -671,8 +629,7 @@
   initials: Tc
   latin: Technetium
   mass: 98.907
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -687,8 +644,7 @@
   initials: Ru
   latin: Ruthenium
   mass: 101.07
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -703,8 +659,7 @@
   initials: Rh
   latin: Rhodium
   mass: 102.906
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -719,8 +674,7 @@
   initials: Pd
   latin: Palladium
   mass: 106.42
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -734,8 +688,7 @@
   initials: Ag
   latin: Argentum
   mass: 107.868
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -750,8 +703,7 @@
   initials: Cd
   latin: Cadmium
   mass: 112.414
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -766,8 +718,7 @@
   initials: In
   latin: Indium
   mass: 114.818
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -783,8 +734,7 @@
   initials: Sn
   latin: Stannum
   mass: 118.711
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -800,8 +750,7 @@
   initials: Sb
   latin: Stibium
   mass: 121.76
-  family:
-    name: semi_metals
+  family: semi_metals
   color:
     primary: --color-lime-l1
     secondary: --color-lime-l2
@@ -817,8 +766,7 @@
   initials: Te
   latin: Tellurium
   mass: 127.6
-  family:
-    name: semi_metals
+  family: semi_metals
   color:
     primary: --color-lime-l1
     secondary: --color-lime-l2
@@ -834,8 +782,7 @@
   initials: I
   latin: Iodium
   mass: 126.904
-  family:
-    name: halogens
+  family: halogens
   color:
     primary: --color-blue-l1
     secondary: --color-blue-l2
@@ -851,8 +798,7 @@
   initials: Xe
   latin: Xenon
   mass: 131.294
-  family:
-    name: noble_gases
+  family: noble_gases
   color:
     primary: --color-sapphire-l1
     secondary: --color-sapphire-l2
@@ -868,8 +814,7 @@
   initials: Cs
   latin: Caesium
   mass: 132.905
-  family:
-    name: alkali_metals
+  family: alkali_metals
   color:
     primary: --color-red-l1
     secondary: --color-red-l2
@@ -883,8 +828,7 @@
   initials: Ba
   latin: Barium
   mass: 137.328
-  family:
-    name: alkaline_marth_metals
+  family: alkaline_marth_metals
   color:
     primary: --color-orange-l1
     secondary: --color-orange-l2
@@ -898,8 +842,7 @@
   initials: La
   latin: Lanthanum
   mass: 138.905
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -914,8 +857,7 @@
   initials: Ce
   latin: Cerium
   mass: 140.116
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -931,8 +873,7 @@
   initials: Pr
   latin: Praseodymium
   mass: 140.908
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -947,8 +888,7 @@
   initials: Nd
   latin: Neodymium
   mass: 144.243
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -963,8 +903,7 @@
   initials: Pm
   latin: Promethium
   mass: 144.913
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -979,8 +918,7 @@
   initials: Sm
   latin: Samarium
   mass: 150
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -995,8 +933,7 @@
   initials: Eu
   latin: Europium
   mass: 151.964
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -1011,8 +948,7 @@
   initials: Gd
   latin: Gadolinium
   mass: 157.25
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -1028,8 +964,7 @@
   initials: Tb
   latin: Terbium
   mass: 158.925
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -1044,8 +979,7 @@
   initials: Dy
   latin: Dysprosium
   mass: 162.5
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -1060,8 +994,7 @@
   initials: Ho
   latin: Holmium
   mass: 164.93
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -1076,8 +1009,7 @@
   initials: Er
   latin: Erbium
   mass: 167.259
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -1092,8 +1024,7 @@
   initials: Tm
   latin: Thulium
   mass: 168.934
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -1108,8 +1039,7 @@
   initials: Yb
   latin: Ytterbium
   mass: 173.055
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -1124,8 +1054,7 @@
   initials: Lu
   latin: Lutetium
   mass: 174.967
-  family:
-    name: lanthanoids
+  family: lanthanoids
   color:
     primary: --color-fuchsia-l1
     secondary: --color-fuchsia-l2
@@ -1141,8 +1070,7 @@
   initials: Hf
   latin: Hafnium
   mass: 178.49
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1158,8 +1086,7 @@
   initials: Ta
   latin: Tantalum
   mass: 180.948
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1175,8 +1102,7 @@
   initials: W
   latin: Wolframium
   mass: 183.85
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1192,8 +1118,7 @@
   initials: Re
   latin: Rhenium
   mass: 186.207
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1209,8 +1134,7 @@
   initials: Os
   latin: Osmium
   mass: 190.23
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1226,8 +1150,7 @@
   initials: Ir
   latin: Iridium
   mass: 192.22
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1243,8 +1166,7 @@
   initials: Pt
   latin: Platinum
   mass: 195.08
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1260,8 +1182,7 @@
   initials: Au
   latin: Aurum
   mass: 196.967
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1277,8 +1198,7 @@
   initials: Hg
   latin: Hydrargyrum
   mass: 200.59
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1294,8 +1214,7 @@
   initials: Tl
   latin: Thallium
   mass: 204.383
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -1312,8 +1231,7 @@
   initials: Pb
   latin: Plumbum
   mass: 207.2
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -1330,8 +1248,7 @@
   initials: Bi
   latin: Bismuthum
   mass: 208.68
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -1348,8 +1265,7 @@
   initials: Po
   latin: Polonium
   mass: 208.982
-  family:
-    name: semi_metals
+  family: semi_metals
   color:
     primary: --color-lime-l1
     secondary: --color-lime-l2
@@ -1366,8 +1282,7 @@
   initials: At
   latin: Astatum
   mass: 209.987
-  family:
-    name: halogens
+  family: halogens
   color:
     primary: --color-blue-l1
     secondary: --color-blue-l2
@@ -1384,8 +1299,7 @@
   initials: Rn
   latin: Radon
   mass: 22.018
-  family:
-    name: noble_gases
+  family: noble_gases
   color:
     primary: --color-sapphire-l1
     secondary: --color-sapphire-l2
@@ -1402,8 +1316,7 @@
   initials: Fr
   latin: Francium
   mass: 223.02
-  family:
-    name: alkali_metals
+  family: alkali_metals
   color:
     primary: --color-red-l1
     secondary: --color-red-l2
@@ -1417,8 +1330,7 @@
   initials: Ra
   latin: Radium
   mass: 226.025
-  family:
-    name: alkaline_marth_metals
+  family: alkaline_marth_metals
   color:
     primary: --color-orange-l1
     secondary: --color-orange-l2
@@ -1432,8 +1344,7 @@
   initials: Ac
   latin: Actinium
   mass: 227.028
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1448,8 +1359,7 @@
   initials: Th
   latin: Thorium
   mass: 232.038
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1464,8 +1374,7 @@
   initials: Pa
   latin: Protactinium
   mass: 231.036
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1481,8 +1390,7 @@
   initials: U
   latin: Uranium
   mass: 238.029
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1498,8 +1406,7 @@
   initials: Np
   latin: Neptunium
   mass: 237.048
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1515,8 +1422,7 @@
   initials: Pu
   latin: Plutonium
   mass: 244.064
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1531,8 +1437,7 @@
   initials: Am
   latin: Americium
   mass: 243.061
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1547,8 +1452,7 @@
   initials: Cm
   latin: Curium
   mass: 247.07
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1564,8 +1468,7 @@
   initials: Bk
   latin: Berkelium
   mass: 247.07
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1580,8 +1483,7 @@
   initials: Cf
   latin: Californium
   mass: 251.08
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1596,8 +1498,7 @@
   initials: Es
   latin: Einsteinium
   mass: 254
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1612,8 +1513,7 @@
   initials: Fm
   latin: Fermium
   mass: 257.095
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1628,8 +1528,7 @@
   initials: Md
   latin: Mendelevium
   mass: 258.1
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1644,8 +1543,7 @@
   initials: 'No'
   latin: Nobelium
   mass: 259.101
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1660,8 +1558,7 @@
   initials: Lr
   latin: Lawrencium
   mass: 262
-  family:
-    name: actinoids
+  family: actinoids
   color:
     primary: --color-purple-l1
     secondary: --color-purple-l2
@@ -1677,8 +1574,7 @@
   initials: Rf
   latin: Rutherfordium
   mass: 261
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1694,8 +1590,7 @@
   initials: Db
   latin: Dubnium
   mass: 262
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1711,8 +1606,7 @@
   initials: Sg
   latin: Seaborgium
   mass: 266
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1728,8 +1622,7 @@
   initials: Bh
   latin: Bohrium
   mass: 264
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1745,8 +1638,7 @@
   initials: Hs
   latin: Hassium
   mass: 269
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1762,8 +1654,7 @@
   initials: Mt
   latin: Meitnerium
   mass: 278
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1779,8 +1670,7 @@
   initials: Ds
   latin: Darmstadtium
   mass: 281
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1796,8 +1686,7 @@
   initials: Rg
   latin: Roentgenium
   mass: 280
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1813,8 +1702,7 @@
   initials: Cn
   latin: Copernicium
   mass: 285
-  family:
-    name: transition_metals
+  family: transition_metals
   color:
     primary: --color-yellow-l1
     secondary: --color-yellow-l2
@@ -1830,8 +1718,7 @@
   initials: Nh
   latin: Nihonium
   mass: 286
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -1848,8 +1735,7 @@
   initials: Fl
   latin: Flerovium
   mass: 289
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -1866,8 +1752,7 @@
   initials: Mc
   latin: Moscovium
   mass: 289
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -1884,8 +1769,7 @@
   initials: Lv
   latin: Livermorium
   mass: 293
-  family:
-    name: post_transition_metals
+  family: post_transition_metals
   color:
     primary: --color-turquoise-l1
     secondary: --color-turquoise-l2
@@ -1902,8 +1786,7 @@
   initials: Ts
   latin: Tennessine
   mass: 294
-  family:
-    name: halogens
+  family: halogens
   color:
     primary: --color-blue-l1
     secondary: --color-blue-l2
@@ -1920,8 +1803,7 @@
   initials: Og
   latin: Oganesson
   mass: 294
-  family:
-    name: noble_gases
+  family: noble_gases
   color:
     primary: --color-sapphire-l1
     secondary: --color-sapphire-l2

@@ -56,12 +56,19 @@ export default
 
 
   methods:
+    importLanguage: (language) ->
+      new Promise (resolve) =>
+        import("@/locales/#{language}.yml")
+          .then (data) =>
+            @$i18n.setLocaleMessage(language, data.default)
+            resolve()
+
     setLanguage: (language) ->
-      @$i18n.locale = language
+      @importLanguage(language)
+        .then =>
+            @$i18n.locale = language
 
-      @$root.updateLanguage()
-
-      window.localStorage.setItem('language', language)
+            window.localStorage.setItem('language', language)
 
 
     close: ->

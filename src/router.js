@@ -13,7 +13,6 @@ export default new Router({
       name: 'home',
       component: periodicTable,
       meta: {
-        language: window.localStorage.getItem('language'),
         searchBar: true
       }
     },

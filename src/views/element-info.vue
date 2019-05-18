@@ -8,7 +8,7 @@ section#element-info.row.flex.justify-center.align-start.pb-3(:style="{'--elemen
       | {{ element.initials }}
       span.element-color ]
 
-    .l-15 {{ element.name }}
+    .l-15 {{ elementName }}
       sup.l-09.c-gray-l2 {{ element.atom }}
 
     .l-1.s-italic.c-gray-l2 {{ element.latin }}
@@ -28,7 +28,7 @@ section#element-info.row.flex.justify-center.align-start.pb-3(:style="{'--elemen
         | {{ element.initials }}
         span.element-color ]
 
-      .l-13 {{ element.name }}
+      .l-13 {{ elementName }}
         sup.l-09.c-gray-l2 {{ element.atom }}
 
       .l-08.s-italic.c-gray-l2 {{ element.latin }}
@@ -36,7 +36,7 @@ section#element-info.row.flex.justify-center.align-start.pb-3(:style="{'--elemen
     br
 
     .l-09.l-sm-07.c-gray-l3 {{ $t('views.chemical_info.family') }}
-    .l-12.l-sm-10.element-color {{ element.family.text }}
+    .l-12.l-sm-10.element-color {{ elementFamily }}
 
     br
 
@@ -95,9 +95,9 @@ export default
     element: ->
       selector = @$route.params.selector.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 
-      element = @chemicals.find (chemical) ->
+      element = @chemicals.find (chemical) =>
         atom     = chemical.atom.toString()
-        name     = chemical.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        name     = @$t('chemicals')[atom - 1].toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
         latin    = chemical.latin.toLowerCase()
         initials = chemical.initials.toLowerCase()
 
@@ -112,6 +112,16 @@ export default
       else @hasElement = false
 
       return element
+
+
+    elementName: ->
+      index = @element.atom - 1
+      return @$t('chemicals')[index]
+
+
+    elementFamily: ->
+      index = @element.family
+      return @$t('views.chemical_info.families')[index]
 
 
     googleLink: ->

@@ -73,7 +73,7 @@ export default
         atom     = element.atom.toString()
         initials = element.initials.toLowerCase()
         latin    = element.latin.toLowerCase()
-        name = element.name.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        name = @$t('chemicals')[i].toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
         family   = element.family.text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
 
         setActive = (state = true) =>
