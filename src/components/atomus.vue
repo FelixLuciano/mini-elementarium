@@ -133,7 +133,7 @@ export default
     border: 2px solid var(--color-gray-d5)
     border-radius: 50%
     position: absolute
-    transition: .3s
+    transition: opacity .3s
 
     @for $i from 0 through 6
       &:nth-child(#{$i + 1})
@@ -142,6 +142,9 @@ export default
 
         &.empty
           opacity: .8 - .1 * $i
+
+        .electron::before
+          padding: calc(6% - #{2.2px * $i})
 
     &:not(.empty)
       animation: 80s infinite linear
@@ -173,11 +176,12 @@ export default
       position: absolute
       text-align: center
       transform: rotate(calc(360deg * var(--index) / var(--length)))
-      transition: .3s
+      transition: transform .3s
 
       &:before
         content: ''
-        padding: .35rem
+        min-width: 7px
+        min-height: 7px
         background-color: var(--element-color)
         border: 3px solid var(--color-background)
         border-radius: 50%
