@@ -11,12 +11,12 @@ Mini Elementarium is an informative application about the elements of the period
 ## Getting started
 The application can be accessed by the address [mini-elementarium.tk](https://mini-elementarium.tk) or [FelixLuciano.github.io/mini-elementarium](https://felixluciano.github.io/mini-elementarium).
 You can also create direct links to access the application with pre-established situations. E.g:
-- **English**: [mini-elementarium.tk/#/**en**](https://mini-elementarium.tk/#/en)
-- **Portuguese**: [mini-elementarium.tk/#/**pt**](https://mini-elementarium.tk/#/pt)
-- **Russian**: [mini-elementarium.tk/#/**ru**](https://mini-elementarium.tk/#/ru)
+- **English**: [mini-elementarium.tk/#/**en-US**](https://mini-elementarium.tk/#/en-US)
+- **Portuguese**: [mini-elementarium.tk/#/**pt-BR**](https://mini-elementarium.tk/#/pt-BR)
+- **Russian**: [mini-elementarium.tk/#/**ru-RU**](https://mini-elementarium.tk/#/ru-RU)
 - **Hydrogen**: [mini-elementarium.tk/#/**Hydrogenium**](https://mini-elementarium.tk/#/Hydrogenium)
-- **Carbon in portuguese**: [mini-elementarium.tk/#/**pt/carbono**](https://mini-elementarium.tk/#/pt/carbono)
-- **3rd element in russian**: [mini-elementarium.tk/#/**ru/3**](https://mini-elementarium.tk/#/ru/3)
+- **Carbon in portuguese**: [mini-elementarium.tk/#/**pt-BR/carbono**](https://mini-elementarium.tk/#/pt-BR/carbono)
+- **3rd element in russian**: [mini-elementarium.tk/#/**ru-RU/3**](https://mini-elementarium.tk/#/ru-RU/3)
 
 
 ## Translations
