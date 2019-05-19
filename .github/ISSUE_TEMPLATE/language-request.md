@@ -2,8 +2,8 @@
 name: Language request
 about: Suggest an translation for this application
 title: "[Language request]"
-labels: enhancement
-assignees: FelixLuciano
+labels: ''
+assignees: ''
 
 ---
 
