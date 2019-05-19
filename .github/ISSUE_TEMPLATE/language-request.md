@@ -1,8 +1,8 @@
 ---
 name: Language request
 about: Suggest an translation for this application
-title: "[Language request]"
-labels: ''
+title: ''
+labels: Language request
 assignees: ''
 
 ---
