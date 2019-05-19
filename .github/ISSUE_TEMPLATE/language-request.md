@@ -13,6 +13,7 @@ e.g American English
 **Based on the name and country of origin, what would be the abbreviation for that language?**
 e.g en-US
 
+**Translate the following document, this is an application language template:**
 ```yaml
 ---
 user_interface:
@@ -20,9 +21,15 @@ user_interface:
   close: Close
   back: Back
   search: Search
-  choose_language: Choose language
 
 views:
+  language_dialog:
+    leave_your_contribution: Leave your contribution
+    about_contributing: Contributing to the application makes it better for everyone.
+    choose_language: Choose language
+    not_accurate: Not accurate
+    contribute: Contribute
+
   about:
     description: Mini Elementarium is an informative application about the elements of the periodic table with a colorful intuitive and multi linguistic interface for various devices.
     license: License

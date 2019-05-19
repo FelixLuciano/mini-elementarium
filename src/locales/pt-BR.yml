@@ -4,9 +4,15 @@ user_interface:
   close: Fechar
   back: Voltar
   search: Pesquisar
-  choose_language: Escolha o idioma
 
 views:
+  language_dialog:
+    leave_your_contribution: Deixe sua contribuição
+    about_contributing: Contribuindo com o aplicativo o torna melhor para todo o mundo.
+    choose_language: Escolha o idioma
+    not_accurate: Não acurado
+    contribute: Contribuir
+
   about:
     description: Mini Elementarium é um aplicativo informativo sobre os elementos da tabela periódica com uma interface colorida intuitiva e multi linguística para diversos dispositivos.
     license: Licença

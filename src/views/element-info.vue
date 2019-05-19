@@ -132,11 +132,13 @@ export default
 
 
     wiki2Link: ->
-      if @language == 'pt'
-        "https://pt.wiki2.org/wiki/#{ @element.name }"
+      language = @$i18n.locale.split('-')[0]
+
+      if language == 'pt'
+        "https://pt.wiki2.org/wiki/#{ @elementName }"
 
       else
-        "https://wiki2.org/#{ @language }/#{ @element.name }"
+        "https://wiki2.org/#{ language }/#{ @elementName }"
 
 
 

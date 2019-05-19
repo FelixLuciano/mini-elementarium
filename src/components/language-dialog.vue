@@ -1,25 +1,37 @@
 <template lang='pug'>
 
-#languageDialog.mdc-dialog
-  .mdc-dialog__container
+#language-dialog(:class='{active: value}')
 
-    .mdc-dialog__surface
-      h2.mdc-dialog__title {{ $t('user_interface.choose_language') }}
+  transition(name='transition-slide-y')
+    section.bg-white.radius-10.c-dark.flex(v-show='value')
 
-      .mdc-dialog__content.px-0.py-2
-        ul.mdc-list
+      .col-6.px-3.py-5.radius-10.bg-yellow.c-dark.flex.justify-center.align-center.h-xs
 
-          template(v-for='language in languages')
-            li.mdc-list-item.px-4(@click="setLanguage(language.value), close()")
-              span.mdc-list-item__text.ml-2 {{ language.name }}
+        .col-12.a-center
+          icon-people-group(:size='75')
 
+        .l-09.w-bold {{ $t('views.language_dialog.leave_your_contribution') }}
+        .mt-2.l-06.a-center {{ $t('views.language_dialog.about_contributing') }}
 
-      footer.mdc-dialog__actions
-        button.mdc-button.mdc-dialog__button.px-3(@click='close()')
-          span.mdc-button__label.w-bold {{ $t('user_interface.close') }}
+        a.mdc-button.mt-4.bg-white.radius-pill(href='https://github.com/FelixLuciano/mini-elementarium/issues/new?template=language-request.md&title=%5BLanguage+request%5D' target='_blank')
+          span.mdc-button__label.px-3.w-black {{ $t('views.language_dialog.contribute') }}
 
+      .col-12.col-sm-6.p-3.flex.columns
 
-  .mdc-dialog__scrim(@click='close()')
+        .col.flex.pt-1.l-10.l-sm-09.w-bold {{ $t('views.language_dialog.choose_language') }}
+        .col.flex.pt-1.l-07.l-sm-06 *{{ $t('views.language_dialog.not_accurate') }}
+
+        .col-fill.my-3.l-08.l-sm-07
+          ul.selector
+            li(v-for='language in languages' @click='setLanguage(language.value)') {{ language.name }}
+
+        .col.flex.justify-end
+
+          button.mdc-button.mdc-dialog__button.px-3(@click='close()')
+            span.mdc-button__label.w-bold {{ $t('user_interface.close') }}
+
+  transition(name='transition-fade')
+    .background-scrim(v-show='value' @click='close()')
 //-
 </template>
 
@@ -27,7 +39,7 @@
 
 <script lang='coffee'>
 
-import { MDCDialog } from '@material/dialog'
+import accountGroupIcon from 'icons/AccountGroup'
 
 export default
   name: 'language-dialog'
@@ -37,13 +49,13 @@ export default
     value: Boolean
 
 
-
   data: ->
-    dialog: Object
-
     languages: [
         name: 'English'
         value: 'en-US'
+      ,
+        name: 'Español*'
+        value: 'es-ES'
       ,
         name: 'Purtuguês'
         value: 'pt-BR'
@@ -52,7 +64,6 @@ export default
         value: 'ru-RU'
       ,
     ]
-
 
 
   methods:
@@ -70,21 +81,15 @@ export default
 
             window.localStorage.setItem('language', language)
 
+      @close()
 
     close: ->
       @$emit 'input', false
 
 
 
-  watch:
-    value: ->
-      if @value then @dialog.open()
-      else @dialog.close()
-
-
-
-  mounted: ->
-    @dialog = new MDCDialog document.querySelector '#languageDialog'
+  components:
+    'icon-people-group': accountGroupIcon
 
 </script>
 
@@ -92,6 +97,49 @@ export default
 
 <style lang='sass'>
 
+#language-dialog
+  width: 100%
+  height: 100%
+  padding: 10px
+  position: fixed
+  left: 0
+  top: 0
+  z-index: 999
+  display: none
+  justify-content: center
+  align-items: center
 
+  &.active
+    display: flex
+
+
+  section
+    width: 100%
+    max-width: 600px
+
+    ul.selector
+      max-height: 250px
+      margin: 0
+      padding: 0 5px 0 0
+      list-style: none
+      overflow-y: auto
+
+      li
+        padding: 8px 18px
+        border-radius: 100px
+
+        &:hover
+          background: rgba(black, .1)
+          cursor: pointer
+
+
+  .background-scrim
+    width: 100%
+    height: 100%
+    background: rgba(#333, .6)
+    position: absolute
+    left: 0
+    top: 0
+    z-index: -1
 
 </style>

@@ -2,7 +2,8 @@
 
 #atomus
   .electrosphere(v-for='layer in layersLength' :style="{'--length': layer}" :class='{empty: !layer}')
-    .electron(v-for='_, i in layer' :style="{'--index': i}" transition='transition-fade')
+    .electron(v-for='_, i in layer' :style="{'--index': i}")
+      div
 
   .nucleus
 //-
@@ -114,6 +115,7 @@ export default
 #atomus
   width: 100%
   height: 100%
+  overflow: hidden
 
   &, .electrosphere
     display: flex
@@ -137,14 +139,15 @@ export default
 
     @for $i from 0 through 6
       &:nth-child(#{$i + 1})
-        width: 28% + 12% * $i
-        height: 28% + 12% * $i
+        width: calc(#{28% + 12% * $i} - 14px)
+        height: calc(#{28% + 12% * $i} - 14px)
 
         &.empty
           opacity: .8 - .1 * $i
 
-        .electron::before
-          padding: calc(6% - #{2.2px * $i})
+        .electron > div
+          width: calc(22% - #{9px * $i})
+          height: calc(22% - #{9px * $i})
 
     &:not(.empty)
       animation: 80s infinite linear
@@ -174,18 +177,17 @@ export default
       width: 100%
       height: 100%
       position: absolute
-      text-align: center
       transform: rotate(calc(360deg * var(--index) / var(--length)))
+      display: flex
+      justify-content: center
       transition: transform .3s
 
-      &:before
-        content: ''
-        min-width: 7px
-        min-height: 7px
+      div
+        min-width: 15px
+        min-height: 15px
         background-color: var(--element-color)
         border: 3px solid var(--color-background)
         border-radius: 50%
-        position: absolute
-        transform: translate(-50%, calc(-50% - 1px))
+        transform: translate(0, calc(-50% - 1px))
 
 </style>

@@ -4,9 +4,15 @@ user_interface:
   close: Закрыть
   back: вернуться
   search: Поиск
-  choose_language: выберите язык
 
 views:
+  language_dialog:
+    leave_your_contribution: Оставьте свой вклад
+    about_contributing: Вклад в приложение делает его лучше для всех.
+    choose_language: выберите язык
+    not_accurate: Не точный
+    contribute: Делать вклад
+
   about:
     description: Информационное приложение по элементам периодической таблицы с красочным интуитивно понятным и многоязычным интерфейсом для различных устройств.
     license: ЛИЦЕНЗИЯ

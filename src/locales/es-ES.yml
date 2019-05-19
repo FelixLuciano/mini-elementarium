@@ -1,0 +1,160 @@
+---
+user_interface:
+  home: Inicio
+  close: Cerrar
+  back: Volver
+  search: Buscar
+
+views:
+  language_dialog:
+    leave_your_contribution: Deja tu aporte
+    about_contributing: Contribuyendo con la aplicación lo hace mejor para todo el mundo.
+    choose_language: Seleccione el idioma
+    not_accurate: No es correcto
+    contribute: Contribuir
+
+  about:
+    description: Mini Elementarium es una aplicación informativa sobre los elementos de la tabla periódica con una interfaz intuitiva y multilingüe para varios dispositivos.
+    license: Licencia
+    consultant: Consultoría por {0}
+    peoples:
+      maxim_lyutov: Maxim Lyutov
+
+  chemical_info:
+    family: Familia
+    atomic_mass: Masa atomica
+    electronic_config: Configuración electrónica
+    see_more_on: Ver más en
+    chemical_element: Elemento químico
+    families:
+      hydrogen: Hidrógeno / No Metales
+      noble_gases: gas noble
+      halogens: Halógenos
+      alkali_metals: Metales alcalinos
+      alkaline_marth_metals: Metales alcalinotérreos
+      transition_metals: Metales de transición
+      post_transition_metals: Metales post-transición
+      semi_metals: Semimetales / metaloides
+      non_metals: No metales
+      lanthanoids: Lantanoides
+      actinoids: Actinoides
+
+chemicals:
+  - Hidrógeno
+  - Helio
+  - Litio
+  - Berilio
+  - Boro
+  - Carbón
+  - Nitrógeno
+  - Oxígeno
+  - Flúor
+  - Neón
+  - Sodio
+  - Magnesio
+  - Aluminio
+  - Silicio
+  - Fósforo
+  - Azufre
+  - Cloro
+  - Argón
+  - Potasio
+  - Calcio
+  - Escandio
+  - Titanio
+  - Vanadio
+  - Cromo
+  - Manganeso
+  - Planchar
+  - Cobalto
+  - Níquel
+  - Cobre
+  - Zinc
+  - Galio
+  - Germanio
+  - Arsénico
+  - Selenio
+  - Bromo
+  - Kripton
+  - Rubidio
+  - Estroncio
+  - Itrio
+  - Circonio
+  - Niobio
+  - Molibdeno
+  - Tecnecio
+  - Rutenio
+  - Rodio
+  - Paladio
+  - Plata
+  - Cadmio
+  - Induim
+  - Estaño
+  - Antimonio
+  - Telurio
+  - Yodo
+  - Xenón
+  - Cesio
+  - Bario
+  - Lantano
+  - Cerio
+  - Praseodimio
+  - Neodimio
+  - Prometeo
+  - Samario
+  - Europio
+  - Gadolium
+  - Terbio
+  - Disprosio
+  - Holmio
+  - Erbio
+  - Tulio
+  - Iterbio
+  - Lutertium
+  - Hafnio
+  - Tantalio
+  - Tungsteno
+  - Renio
+  - Osmio
+  - Iridio
+  - Platino
+  - Oro
+  - Mercurio
+  - Talio
+  - Dirigir
+  - Bismuto
+  - Polonio
+  - Astatine
+  - Radón
+  - Francium
+  - Radio
+  - Actinum
+  - Torio
+  - Protactinum
+  - Uranio
+  - Neptunio
+  - Plutonio
+  - Americio
+  - Curio
+  - Berkelio
+  - Californio
+  - Einstenio
+  - Fermio
+  - Mendelevio
+  - Nobelio
+  - Lawrencium
+  - Rutherfordium
+  - Dobnio
+  - Seaborgium
+  - Bohrium
+  - Hassium
+  - Meitnerio
+  - Darmstadio
+  - Roentgenium
+  - Copernicio
+  - Nihonio
+  - Flerovium
+  - Moscovio
+  - Livermorium
+  - Tennessine
+  - Oganesson

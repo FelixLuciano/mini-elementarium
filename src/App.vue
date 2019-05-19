@@ -163,6 +163,19 @@ section.has-navigation-button
     transform: scale(1)
 
 
+.fade
+  &-enter-active, &-leave-active
+    transition: mdc-animation-standard(opacity, 175ms), mdc-animation-standard(transform, 175ms)
+
+  &-enter, &-leave-to
+    opacity: 0
+    visibility: hidden
+
+  &-enter-to, &-leave
+    opacity: 1
+    visibility: visible
+
+
 .transition-page
   &-enter-active, &-leave-active
     transition: mdc-animation-standard(opacity, 400ms), mdc-animation-standard(transform, 400ms)
