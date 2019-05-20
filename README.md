@@ -17,7 +17,7 @@
 
 ### GETTING STARTED
 
-The application can be accessed by the address [`mini-elementarium.tk`](https://mini-elementarium.tk) or [`FelixLuciano.github.io/mini-elementarium`](https://felixluciano.github.io/mini-elementarium).
+The application can be accessed by the address [`mini-elementarium.tk`](http://mini-elementarium.tk) or [`FelixLuciano.github.io/mini-elementarium`](https://felixluciano.github.io/mini-elementarium).
 This is a progressive web application, this means that it can be installed on your device directly from your browser for offline access from your desktop or home screen.
 
 
