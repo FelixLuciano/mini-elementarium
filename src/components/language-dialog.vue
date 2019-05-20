@@ -13,7 +13,7 @@
         .l-09.w-bold {{ $t('views.language_dialog.leave_your_contribution') }}
         .mt-2.l-06.a-center {{ $t('views.language_dialog.about_contributing') }}
 
-        a.mdc-button.mt-4.bg-white.radius-pill(href='https://github.com/FelixLuciano/mini-elementarium/issues/new?template=language-request.md&title=%5BLanguage+request%5D' target='_blank')
+        a.mdc-button.mt-4.bg-white.radius-pill(href='https://github.com/FelixLuciano/mini-elementarium/issues/new?&labels=Language+request&template=language-request.md' target='_blank')
           span.mdc-button__label.px-3.w-black {{ $t('views.language_dialog.contribute') }}
 
       .col-12.col-sm-6.p-3.flex.columns

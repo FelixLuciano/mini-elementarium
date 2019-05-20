@@ -1,34 +1,38 @@
-![Prim](public/banner.svg)
-
-## Indrotuction
-Mini Elementarium is an informative application about the elements of the periodic table, with a colorful, intuitive and multi linguistic interface for various devices.
-
-## Features
-- **Responsive** - The application is designed to support various screen sizes.
-- **multi linguistic** - A set of languages is available to facilitate access to content.
-- **intuitive** - The entire interface has been designed to give the user an easy and intuitive experience.
-
-## Getting started
-The application can be accessed by the address [mini-elementarium.tk](https://mini-elementarium.tk) or [FelixLuciano.github.io/mini-elementarium](https://felixluciano.github.io/mini-elementarium).
-You can also create direct links to access the application with pre-established situations. E.g:
-- **English**: [mini-elementarium.tk/#/**en-US**](https://mini-elementarium.tk/#/en-US)
-- **Portuguese**: [mini-elementarium.tk/#/**pt-BR**](https://mini-elementarium.tk/#/pt-BR)
-- **Russian**: [mini-elementarium.tk/#/**ru-RU**](https://mini-elementarium.tk/#/ru-RU)
-- **Hydrogen**: [mini-elementarium.tk/#/**Hydrogenium**](https://mini-elementarium.tk/#/Hydrogenium)
-- **Carbon in portuguese**: [mini-elementarium.tk/#/**pt-BR/carbono**](https://mini-elementarium.tk/#/pt-BR/carbono)
-- **3rd element in russian**: [mini-elementarium.tk/#/**ru-RU/3**](https://mini-elementarium.tk/#/ru-RU/3)
+![Mini Elementarium](.github/assets/banner.svg)
 
 
-## Translations
-Here are the people who helped translate this app:
-- **English**: Luciano Felix.
-- **Portuguese**: Luciano Felix.
-- **Russian**: Maxim Lyutov.
+### INTRODUCTION
+
+**Mini Elementarium** is an progressive web application about the elements of the periodic table, with a colorful, intuitive and multi linguistic interface for various devices.
 
 
-## License
-#### [MIT](https://github.com/FelixLuciano/mini-elementarium/blob/master/LICENSE)
+### FEATURES
 
----
+**Responsive** - The application is designed to support various screen sizes.
 
-Copyright (c) 2019, Luciano Felix
+**multi linguistic** - A set of languages is available to facilitate access to content.
+
+**intuitive** - The entire interface has been designed to give the user an easy and intuitive experience.
+
+
+### GETTING STARTED
+
+The application can be accessed by the address [`mini-elementarium.tk`](https://mini-elementarium.tk) or [`FelixLuciano.github.io/mini-elementarium`](https://felixluciano.github.io/mini-elementarium).
+This is a progressive web application, this means that it can be installed on your device directly from your browser for offline access from your desktop or home screen.
+
+
+### TRANSLATIONS AVAILABLE
+
+- [English](https://github.com/FelixLuciano/mini-elementarium/issues/2)
+- [Spanish](https://github.com/FelixLuciano/mini-elementarium/issues/5)
+- [Portuguese](https://github.com/FelixLuciano/mini-elementarium/issues/3)
+- [Russian](https://github.com/FelixLuciano/mini-elementarium/issues/4)
+
+You can contribute to the translation of this application by [creating a issue](https://github.com/FelixLuciano/mini-elementarium/issues/new?&labels=Language+request&template=language-request.md) or commenting on [issues already created](https://github.com/FelixLuciano/mini-elementarium/issues?q=is%3Aopen+is%3Aissue+label%3A%22Language+request%22).
+
+
+### LICENSE
+[MIT](https://github.com/FelixLuciano/mini-elementarium/blob/master/LICENSE)
+
+
+**Copyright (c) 2019 Luciano Felix**
