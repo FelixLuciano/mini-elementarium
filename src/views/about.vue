@@ -1,8 +1,7 @@
 <template lang='pug'>
 
 section#about.row.select-text.pb-3
-  .col-12.a-center.pb-3.no-select
-    img(src='@/assets/logo.svg' width='127' height='127')
+  logo.col-12.mb-3.no-select(height='127')
 
 
   .row.flex.items-center
@@ -24,13 +23,16 @@ section#about.row.select-text.pb-3
       span Copyright © 2019 Luciano Felix
 
     .col-12.mt-2.spacing-2
-      a.mdc-button.mdc-button--outlined(:href='licenseLink' target='_blank')
-        icon-balance.mdc-button__icon(style='height: 24px;')
-        span.mdc-button__label.pl-3.pr-2.w-bold {{ $t('views.about.license') }}
 
-      a.mdc-button.mdc-button--outlined(:href='githubLink' target='_blank')
-        icon-github.mdc-button__icon(style='height: 24px;')
-        span.mdc-button__label.pl-3.pr-2.w-bold Github
+      a.dark.outline.icon-left.radius-max.element-color(type='button' :href='licenseLink' target='_blank')
+        | {{ $t('views.about.license') }}
+        .button-icon(style='padding-top: 4px;')
+          icon-balance(fill='currentColor')
+
+      a.dark.outline.icon-left.radius-max.element-color(type='button' :href='githubLink' target='_blank')
+        | Github
+        .button-icon(style='padding-top: 5px;')
+          icon-github(fill='currentColor')
 //-
 </template>
 
@@ -38,8 +40,10 @@ section#about.row.select-text.pb-3
 
 <script lang='coffee'>
 
-import githubIcon from 'icons/GithubCircle'
-import balanceIcon from 'icons/ScaleBalance'
+import logo from '@/assets/logo'
+
+import githubIcon from 'icons/github-circle'
+import balanceIcon from 'icons/scale-balance'
 
 
 export default
@@ -52,6 +56,8 @@ export default
 
 
   components:
+    'logo': logo
+
     'icon-github': githubIcon
     'icon-balance': balanceIcon
 

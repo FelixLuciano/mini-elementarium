@@ -3,44 +3,43 @@
 nav.row.full-row.py-1.px-md-3.flex.no-wrap
 
   .col.flex.items-center
-    img(src='@/assets/logo.svg' width='32' height='32')
+    logo(width='32' height='32')
     span.h-xs.pl-2.l-07.w-bold MINI ELEMENTARIUM
 
 
   .col-fill
 
 
-  .col
+  .col.flex
     transition(name='transition-scale')
-      button.mdc-icon-button(@click='showSearchbar = true, focusSearchbar()' v-show='$route.meta.searchBar')
-        span.mdc-icon-button__label: icon-magnify
+      button.dark.icon.large(@click='showSearchbar = true, focusSearchbar()' v-show='$route.meta.searchBar')
+        icon-magnify.button-icon(fill='currentColor')
 
-    button.mdc-icon-button(@click='showLanguageDialog = !showLanguageDialog')
-      span.mdc-icon-button__label: icon-earth
+    button.dark.icon.large(@click='showLanguageDialog = !showLanguageDialog')
+      icon-earth.button-icon(fill='currentColor')
 
-    button.mdc-icon-button(@click="openAppInfo")
-      span.mdc-icon-button__label: icon-info
+    button.dark.icon.large(@click="openAppInfo")
+      icon-info.button-icon(fill='currentColor')
 
 
 
   transition(name='transition-slide-y')
     #search-bar.container.p-1(v-show='showSearchbar')
-      .row-fill
+      .row.fill
 
-        .col-fill.mdc-text-field.mdc-text-field--fullwidth.bg-white
-          input#search-input.mdc-text-field__input.px-3(
-            type='text'
-            spellcheck='false'
-            :placeholder="$t('user_interface.search')"
-            v-model='search'
-            @keyup.esc='closeSearchbar'
-            @keyup.enter='blurSearchbar'
-          )
+        input.col-fill.radius-10(
+          type='search'
+          spellcheck='false'
+          :placeholder="$t('user_interface.search')"
+          v-model='search'
+          @keyup.esc='closeSearchbar'
+          @keyup.enter='blurSearchbar'
+        )
 
 
-        #close-button-col.col
-          button.mdc-icon-button(@click='closeSearchbar')
-            span.mdc-icon-button__label: icon-close.c-gray-d8
+        button.icon.large.radius-10.c-gray-d8(@click='closeSearchbar')
+          .button-icon(style='margin-top: 6px;')
+            icon-close
 
 
 
@@ -52,10 +51,12 @@ nav.row.full-row.py-1.px-md-3.flex.no-wrap
 
 <script lang='coffee'>
 
-import magnifyIcon from 'icons/Magnify'
-import earthIcon from 'icons/Earth'
-import infoIcon from 'icons/InformationVariant'
-import closeIcon from 'icons/Close'
+import magnifyIcon from 'icons/magnify'
+import earthIcon from 'icons/earth'
+import infoIcon from 'icons/information-variant'
+import closeIcon from 'icons/close'
+
+import logo from '@/assets/logo'
 
 import languageDialog from '@/components/language-dialog.vue'
 
@@ -74,12 +75,12 @@ export default
   methods:
     focusSearchbar: ->
       setTimeout ->
-        document.querySelector('#search-input').focus()
+        document.querySelector('#search-bar input').focus()
       , 200
 
 
     blurSearchbar: ->
-      document.querySelector('#search-input').blur()
+      document.querySelector('#search-bar input').blur()
 
 
     closeSearchbar: ->
@@ -103,12 +104,13 @@ export default
 
 
   components:
+    'logo': logo
+    'language-dialog': languageDialog
+
     'icon-magnify': magnifyIcon
     'icon-earth': earthIcon
     'icon-info': infoIcon
     'icon-close': closeIcon
-
-    'language-dialog': languageDialog
 
 </script>
 
@@ -127,17 +129,12 @@ nav
     left: 0
     top: 0
 
-    & > row
-      height: 48px
+    input
+      height: 50px
+      border-width: 2px
+      font-size: 16px
 
-    .mdc-text-field
-      height: 48px
-      border-radius: 8px
-
-      #search-input
-        border-bottom: none
-
-    #close-button-col
-      margin-left: -48px
+    button
+      margin-left: -50px
 
 </style>

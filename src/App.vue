@@ -6,21 +6,14 @@
 
 
   transition(name='transition-slide-x')
-    button#back-button.mdc-button.ml-md-2.c-white(@click='home' v-show='showHomeButton')
-
-      icon-periodic-table.mdc-button__icon(style='height: 24px;')
-
-      span.mdc-button__label.px-3.w-bold
-        template {{ $t('user_interface.home') }}
-
+    button.navigation-button.dark.icon-left.radius-max(@click='home' v-show='showHomeButton')
+      | {{ $t('user_interface.home') }}
+      icon-periodic-table.button-icon(fill='currentColor')
 
   transition(name='transition-slide-x')
-    button#back-button.mdc-button.ml-md-2.c-white(@click='back' v-show='showBackButton')
-
-      icon-arrow-left.mdc-button__icon(style='height: 24px;')
-
-      span.mdc-button__label.px-3.w-bold
-        template {{ $t('user_interface.back') }}
+    button.navigation-button.dark.icon-left.radius-max(@click='back' v-show='showBackButton')
+      | {{ $t('user_interface.back') }}
+      icon-arrow-left.button-icon(fill='currentColor')
 
 
   transition(name='transition-page' mode='out-in')
@@ -32,8 +25,9 @@
 
 <script lang='coffee'>
 
-import arrowLeftIcon from 'icons/ArrowLeft'
-import periodicTableIcon from 'icons/PeriodicTable'
+import arrowLeftIcon from 'icons/arrow-left'
+import periodicTableIcon from 'icons/periodic-table'
+
 import navbar from '@/components/navbar'
 
 
@@ -91,31 +85,21 @@ export default
 
 <style lang='sass'>
 
-@import '@material/icon-button/mdc-icon-button.scss'
-@import '@material/textfield/mdc-text-field.scss'
-@import '@material/dialog/mdc-dialog.scss'
-@import '@material/button/mdc-button.scss'
-@import '@material/list/mdc-list.scss'
-
-@import '@material/animation/_functions.scss'
+@import 'prim-css'
 
 
 body
   --color-background: #333
-  --mdc-theme-primary: var(--color-gray-d10)
+  --color-primary: var(--color-yellow)
   background: var(--color-background) !important
   color: var(--color-white) !important
 
 
 
-#back-button
-  border-radius: 18px
+.navigation-button
   position: absolute
   left: 4px
   top: 60px
-
-  &::before, &::after
-    background: #FFF
 
 
 
@@ -126,7 +110,7 @@ section.has-navigation-button
 
 .transition-slide-x
   &-enter-active, &-leave-active
-    transition: mdc-animation-standard(opacity, 175ms), mdc-animation-standard(transform, 175ms)
+    transition: #{ transition(transform, 175ms) }
 
   &-enter, &-leave-to
     opacity: 0
@@ -139,7 +123,7 @@ section.has-navigation-button
 
 .transition-slide-y
   &-enter-active, &-leave-active
-    transition: mdc-animation-standard(opacity, 175ms), mdc-animation-standard(transform, 175ms)
+    transition: transition(opacity, 175ms), transition(transform, 175ms)
 
   &-enter, &-leave-to
     opacity: 0
@@ -152,7 +136,7 @@ section.has-navigation-button
 
 .transition-scale
   &-enter-active, &-leave-active
-    transition: mdc-animation-standard(opacity, 175ms), mdc-animation-standard(transform, 175ms)
+    transition: transition(opacity, 175ms), transition(transform, 175ms)
 
   &-enter, &-leave-to
     opacity: 0
@@ -165,7 +149,7 @@ section.has-navigation-button
 
 .fade
   &-enter-active, &-leave-active
-    transition: mdc-animation-standard(opacity, 175ms), mdc-animation-standard(transform, 175ms)
+    transition: transition(opacity, 175ms), transition(transform, 175ms)
 
   &-enter, &-leave-to
     opacity: 0
@@ -178,7 +162,7 @@ section.has-navigation-button
 
 .transition-page
   &-enter-active, &-leave-active
-    transition: mdc-animation-standard(opacity, 400ms), mdc-animation-standard(transform, 400ms)
+    transition: transition(opacity, 400ms), transition(transform, 400ms)
 
   &-enter, &-leave-to
     opacity: 0

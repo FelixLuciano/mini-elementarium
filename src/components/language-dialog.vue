@@ -3,18 +3,18 @@
 #language-dialog(:class='{active: value}')
 
   transition(name='transition-slide-y')
-    section.bg-white.radius-10.c-dark.flex(v-show='value')
+    section.bg-white.radius-20.c-dark.flex(v-show='value')
 
-      .col-6.px-3.py-5.radius-10.bg-yellow.c-dark.flex.justify-center.align-center.h-xs
+      .col-6.px-3.py-5.radius-20.bg-yellow.c-dark.flex.justify-center.align-center.h-xs
 
         .col-12.a-center
-          icon-people-group(:size='75')
+          icon-people-group(width='75' height='75px' fill='currentColor')
 
         .l-09.w-bold {{ $t('views.language_dialog.leave_your_contribution') }}
         .mt-2.l-06.a-center {{ $t('views.language_dialog.about_contributing') }}
 
-        a.mdc-button.mt-4.bg-white.radius-pill(href='https://github.com/FelixLuciano/mini-elementarium/issues/new?&labels=Language+request&template=language-request.md' target='_blank')
-          span.mdc-button__label.px-3.w-black {{ $t('views.language_dialog.contribute') }}
+        a.mt-4.bg-white.radius-4.radius-max.c-dark(type='button' href='https://github.com/FelixLuciano/mini-elementarium/issues/new?&labels=Language+request&template=language-request.md' target='_blank')
+          | {{ $t('views.language_dialog.contribute') }}
 
       .col-12.col-sm-6.p-3.flex.columns
 
@@ -22,13 +22,12 @@
         .col.flex.pt-1.l-07.l-sm-06 *{{ $t('views.language_dialog.not_accurate') }}
 
         .col-fill.my-3.l-08.l-sm-07
-          ul.selector
-            li(v-for='language in languages' @click='setLanguage(language.value)') {{ language.name }}
+          button.row.radius-max.a-left(v-for='language in languages' @click='setLanguage(language.value)')
+            |{{ language.name }}
 
         .col.flex.justify-end
 
-          button.mdc-button.mdc-dialog__button.px-3(@click='close()')
-            span.mdc-button__label.w-bold {{ $t('user_interface.close') }}
+          button.px-3.bg-white.radius-6(@click='close()') {{ $t('user_interface.close') }}
 
   transition(name='transition-fade')
     .background-scrim(v-show='value' @click='close()')
@@ -39,7 +38,7 @@
 
 <script lang='coffee'>
 
-import accountGroupIcon from 'icons/AccountGroup'
+import accountGroupIcon from 'icons/account-group'
 
 export default
   name: 'language-dialog'
@@ -116,21 +115,6 @@ export default
   section
     width: 100%
     max-width: 600px
-
-    ul.selector
-      max-height: 250px
-      margin: 0
-      padding: 0 5px 0 0
-      list-style: none
-      overflow-y: auto
-
-      li
-        padding: 8px 18px
-        border-radius: 100px
-
-        &:hover
-          background: rgba(black, .1)
-          cursor: pointer
 
 
   .background-scrim

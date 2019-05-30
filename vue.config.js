@@ -3,6 +3,8 @@
 const Path = require('path')
 const Glob = require('glob')
 
+const Purgecss = require("@fullhuman/postcss-purgecss")
+
 
 function resolve (dir) {
   return Path.join(__dirname, dir)
@@ -15,10 +17,31 @@ module.exports = {
 
   configureWebpack: {
     resolve: {
+      extensions: ['.js', '.vue', '.svg', '.yml',],
       alias: {
-        "icons": resolve('node_modules/vue-material-design-icons')
+        "icons": resolve('node_modules/@mdi/svg/svg')
       }
     }
+  },
+
+  chainWebpack(config)
+  {
+    const svgRule = config.module.rule('svg')
+    svgRule.uses.clear()
+    svgRule
+      .use('vue-svg-loader')
+      .loader('vue-svg-loader')
+        .tap(() => {
+          return {
+            svgo: {
+              plugins: [
+                {
+                  removeViewBox: false
+                }
+              ]
+            }
+          }
+        })
   },
 
   css: {
@@ -27,7 +50,17 @@ module.exports = {
         includePaths: [
           resolve('node_modules')
         ]
-      }
+      },
+      postcss: process.env.NODE_ENV === "production" ? {
+        plugins: [
+          Purgecss({
+            content: [
+              "./src/**/*.html",
+              "./src/**/*.vue"
+            ]
+          })
+        ]
+      } : {}
     }
   },
 
