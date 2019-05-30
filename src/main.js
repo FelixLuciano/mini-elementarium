@@ -6,10 +6,7 @@ import App from './App.vue'
 import router from './router'
 import i18n from './i18n'
 
-
-import 'prim-css'
-
-import chemicalElements from '@/assets/chamical-elements.yml'
+import chemicalElements from '@/assets/chamical-elements'
 
 
 Vue.config.productionTip = false
