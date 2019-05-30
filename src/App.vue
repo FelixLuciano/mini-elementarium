@@ -121,17 +121,17 @@ section.has-navigation-button
     transform: translatex(0)
 
 
-  .transition-slide-y
-    &-enter-active, &-leave-active
-      transition: transition(opacity, 175ms), transition(transform, 175ms)
+.transition-slide-y
+  &-enter-active, &-leave-active
+    transition: transition(opacity, 175ms), transition(transform, 175ms)
 
-    &-enter, &-leave-to
-      opacity: 0
-      transform: translateY(-10px)
+  &-enter, &-leave-to
+    opacity: 0
+    transform: translateY(-10px)
 
-    &-enter-to, &-leave
-      opacity: 1
-      transform: translateY(0)
+  &-enter-to, &-leave
+    opacity: 1
+    transform: translateY(0)
 
 
 .transition-scale
