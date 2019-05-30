@@ -59,7 +59,11 @@ module.exports = {
               "./src/**/*.vue"
             ],
             whitelist: [
-              'html'
+              'html',
+              "[class*='transition-']"
+            ],
+            whitelistPatterns: [
+              /^transition-.+/
             ]
           })
         ]

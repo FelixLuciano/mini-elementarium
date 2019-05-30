@@ -12,7 +12,6 @@
   },
   "main": "src/main.js",
   "dependencies": {
-    "axios": "^0.18.0",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-i18n": "^8.0.0",

@@ -110,28 +110,28 @@ section.has-navigation-button
 
 .transition-slide-x
   &-enter-active, &-leave-active
-    transition: #{ transition(transform, 175ms) }
-
-  &-enter, &-leave-to
-    opacity: 0
-    transform: translateX(-10px)
-
-  &-enter-to, &-leave
-    opacity: 1
-    transform: translateX(0)
-
-
-.transition-slide-y
-  &-enter-active, &-leave-active
     transition: transition(opacity, 175ms), transition(transform, 175ms)
 
   &-enter, &-leave-to
     opacity: 0
-    transform: translateY(-10px)
+    transform: translatex(-10px)
 
   &-enter-to, &-leave
     opacity: 1
-    transform: translateY(0)
+    transform: translatex(0)
+
+
+  .transition-slide-y
+    &-enter-active, &-leave-active
+      transition: transition(opacity, 175ms), transition(transform, 175ms)
+
+    &-enter, &-leave-to
+      opacity: 0
+      transform: translateY(-10px)
+
+    &-enter-to, &-leave
+      opacity: 1
+      transform: translateY(0)
 
 
 .transition-scale
@@ -145,19 +145,6 @@ section.has-navigation-button
   &-enter-to, &-leave
     opacity: 1
     transform: scale(1)
-
-
-.fade
-  &-enter-active, &-leave-active
-    transition: transition(opacity, 175ms), transition(transform, 175ms)
-
-  &-enter, &-leave-to
-    opacity: 0
-    visibility: hidden
-
-  &-enter-to, &-leave
-    opacity: 1
-    visibility: visible
 
 
 .transition-page
