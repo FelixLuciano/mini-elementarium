@@ -15,7 +15,9 @@ function resolve (dir) {
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production' ? '/mini-elementarium/' : '/',
 
-  configureWebpack: {
+
+  configureWebpack:
+  {
     resolve: {
       extensions: ['.js', '.vue', '.svg', '.yml',],
       alias: {
@@ -23,6 +25,7 @@ module.exports = {
       }
     }
   },
+
 
   chainWebpack(config)
   {
@@ -44,13 +47,15 @@ module.exports = {
         })
   },
 
-  css: {
+
+  css:{
     loaderOptions: {
       sass: {
         includePaths: [
           resolve('node_modules')
         ]
       },
+
       postcss: process.env.NODE_ENV === "production" ? {
         plugins: [
           Purgecss({
@@ -59,11 +64,10 @@ module.exports = {
               "./src/**/*.vue"
             ],
             whitelist: [
-              'html',
-              "[class*='transition-']"
+              'html'
             ],
             whitelistPatterns: [
-              /^transition-.+/
+              /.+-(enter|leave)-?(to|active)?$/
             ]
           })
         ]
@@ -71,28 +75,31 @@ module.exports = {
     }
   },
 
+
   pwa: {
     name: 'Mini Elementarium',
     themeColor: '#333333',
     msTileColor: '#333333',
     appleMobileWebAppStatusBarStyle: 'black-translucent',
     iconPaths: {
-      favicon32: 'img/icons/favicon-32x32.png',
-      favicon16: 'img/icons/favicon-16x16.png',
+      favicon16:      'img/icons/favicon-16x16.png',
+      favicon32:      'img/icons/favicon-32x32.png',
       appleTouchIcon: 'img/icons/apple-touch-icon-152x152.png',
-      maskIcon: 'img/icons/safari-pinned-tab.svg',
-      msTileImage: 'img/icons/msapplication-icon-144x144.png'
+      maskIcon:       'img/icons/safari-pinned-tab.svg',
+      msTileImage:    'img/icons/msapplication-icon-144x144.png'
     }
   },
 
-  productionSourceMap: false,
 
   pluginOptions: {
     i18n: {
-      locale: 'en',
-      fallbackLocale: 'en',
+      locale: 'en-US',
+      fallbackLocale: 'en-US',
       localeDir: 'locales',
       enableInSFC: false
     }
-  }
+  },
+
+
+  productionSourceMap: false,
 }

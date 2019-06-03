@@ -10,7 +10,7 @@
   electrons:
     base: false
     config:
-      - 1,s,1
+      - 1, s, 1
 
 
 - atom: 2
@@ -24,7 +24,7 @@
   electrons:
     base: false
     config:
-      - 1,s,2
+      - 1, s, 2
 
 
 - atom: 3
@@ -38,7 +38,7 @@
   electrons:
     base: He
     config:
-      - 2,s,1
+      - 2, s, 1
 
 
 - atom: 4
@@ -52,7 +52,7 @@
   electrons:
     base: He
     config:
-      - 2,s,2
+      - 2, s, 2
 
 
 - atom: 5
@@ -66,8 +66,8 @@
   electrons:
     base: He
     config:
-      - 2,s,2
-      - 2,p,1
+      - 2, s, 2
+      - 2, p, 1
 
 
 - atom: 6
@@ -81,8 +81,8 @@
   electrons:
     base: He
     config:
-      - 2,s,2
-      - 2,p,2
+      - 2, s, 2
+      - 2, p, 2
 
 
 - atom: 7
@@ -96,8 +96,8 @@
   electrons:
     base: He
     config:
-      - 2,s,2
-      - 2,p,3
+      - 2, s, 2
+      - 2, p, 3
 
 
 - atom: 8
@@ -111,8 +111,8 @@
   electrons:
     base: He
     config:
-      - 2,s,2
-      - 2,p,4
+      - 2, s, 2
+      - 2, p, 4
 
 
 - atom: 9
@@ -126,8 +126,8 @@
   electrons:
     base: He
     config:
-      - 2,s,2
-      - 2,p,5
+      - 2, s, 2
+      - 2, p, 5
 
 
 - atom: 10
@@ -141,8 +141,8 @@
   electrons:
     base: He
     config:
-      - 2,s,2
-      - 2,p,6
+      - 2, s, 2
+      - 2, p, 6
 
 
 - atom: 11
@@ -156,7 +156,7 @@
   electrons:
     base: Ne
     config:
-      - 3,s,1
+      - 3, s, 1
 
 
 - atom: 12
@@ -170,7 +170,7 @@
   electrons:
     base: Ne
     config:
-      - 3,s,2
+      - 3, s, 2
 
 
 - atom: 13
@@ -184,8 +184,8 @@
   electrons:
     base: Ne
     config:
-      - 3,s,2
-      - 3,p,1
+      - 3, s, 2
+      - 3, p, 1
 
 
 - atom: 14
@@ -199,8 +199,8 @@
   electrons:
     base: Ne
     config:
-      - 3,s,2
-      - 3,p,2
+      - 3, s, 2
+      - 3, p, 2
 
 
 - atom: 15
@@ -214,8 +214,8 @@
   electrons:
     base: Ne
     config:
-      - 3,s,2
-      - 3,p,3
+      - 3, s, 2
+      - 3, p, 3
 
 
 - atom: 16
@@ -229,8 +229,8 @@
   electrons:
     base: Ne
     config:
-      - 3,s,2
-      - 3,p,4
+      - 3, s, 2
+      - 3, p, 4
 
 
 - atom: 17
@@ -244,8 +244,8 @@
   electrons:
     base: Ne
     config:
-      - 3,s,2
-      - 3,p,5
+      - 3, s, 2
+      - 3, p, 5
 
 
 - atom: 18
@@ -259,8 +259,8 @@
   electrons:
     base: Ne
     config:
-      - 3,s,2
-      - 3,p,6
+      - 3, s, 2
+      - 3, p, 6
 
 
 - atom: 19
@@ -274,7 +274,7 @@
   electrons:
     base: Ar
     config:
-      - 4,s,1
+      - 4, s, 1
 
 
 - atom: 20
@@ -288,7 +288,7 @@
   electrons:
     base: Ar
     config:
-      - 4,s,2
+      - 4, s, 2
 
 
 - atom: 21
@@ -302,8 +302,8 @@
   electrons:
     base: Ar
     config:
-      - 3,d,1
-      - 4,s,2
+      - 3, d, 1
+      - 4, s, 2
 
 
 - atom: 22
@@ -317,8 +317,8 @@
   electrons:
     base: Ar
     config:
-      - 3,d,2
-      - 4,s,2
+      - 3, d, 2
+      - 4, s, 2
 
 
 - atom: 23
@@ -332,8 +332,8 @@
   electrons:
     base: Ar
     config:
-      - 3,d,3
-      - 4,s,2
+      - 3, d, 3
+      - 4, s, 2
 
 
 - atom: 24
@@ -347,8 +347,8 @@
   electrons:
     base: Ar
     config:
-      - 3,d,5
-      - 4,s,1
+      - 3, d, 5
+      - 4, s, 1
 
 
 - atom: 25
@@ -362,8 +362,8 @@
   electrons:
     base: Ar
     config:
-      - 3,d,5
-      - 4,s,2
+      - 3, d, 5
+      - 4, s, 2
 
 
 - atom: 26
@@ -377,8 +377,8 @@
   electrons:
     base: Ar
     config:
-      - 3,d,6
-      - 4,s,2
+      - 3, d, 6
+      - 4, s, 2
 
 
 - atom: 27
@@ -392,8 +392,8 @@
   electrons:
     base: Ar
     config:
-      - 3,d,7
-      - 4,s,2
+      - 3, d, 7
+      - 4, s, 2
 
 
 - atom: 28
@@ -407,8 +407,8 @@
   electrons:
     base: Ar
     config:
-      - 3,d,9
-      - 4,s,1
+      - 3, d, 9
+      - 4, s, 1
 
 
 - atom: 29
@@ -422,8 +422,8 @@
   electrons:
     base: Ar
     config:
-      - 3,d,10
-      - 4,s,1
+      - 3, d, 10
+      - 4, s, 1
 
 
 - atom: 30
@@ -437,8 +437,8 @@
   electrons:
     base: Ar
     config:
-      - 3,d,10
-      - 4,s,2
+      - 3, d, 10
+      - 4, s, 2
 
 
 - atom: 31
@@ -452,9 +452,9 @@
   electrons:
     base: Ar
     config:
-      - 3,d,10
-      - 4,s,2
-      - 4,p,1
+      - 3, d, 10
+      - 4, s, 2
+      - 4, p, 1
 
 
 - atom: 32
@@ -468,9 +468,9 @@
   electrons:
     base: Ar
     config:
-      - 3,d,10
-      - 4,s,2
-      - 4,p,2
+      - 3, d, 10
+      - 4, s, 2
+      - 4, p, 2
 
 
 - atom: 33
@@ -484,9 +484,9 @@
   electrons:
     base: Ar
     config:
-      - 3,d,10
-      - 4,s,2
-      - 4,p,3
+      - 3, d, 10
+      - 4, s, 2
+      - 4, p, 3
 
 
 - atom: 34
@@ -500,9 +500,9 @@
   electrons:
     base: Ar
     config:
-      - 3,d,10
-      - 4,s,2
-      - 4,p,4
+      - 3, d, 10
+      - 4, s, 2
+      - 4, p, 4
 
 
 - atom: 35
@@ -516,9 +516,9 @@
   electrons:
     base: Ar
     config:
-      - 3,d,10
-      - 4,s,2
-      - 4,p,5
+      - 3, d, 10
+      - 4, s, 2
+      - 4, p, 5
 
 
 - atom: 36
@@ -532,9 +532,9 @@
   electrons:
     base: Ar
     config:
-      - 3,d,10
-      - 4,s,2
-      - 4,p,6
+      - 3, d, 10
+      - 4, s, 2
+      - 4, p, 6
 
 
 - atom: 37
@@ -548,7 +548,7 @@
   electrons:
     base: Kr
     config:
-      - 5,s,1
+      - 5, s, 1
 
 
 - atom: 38
@@ -562,7 +562,7 @@
   electrons:
     base: Kr
     config:
-      - 5,s,2
+      - 5, s, 2
 
 
 - atom: 39
@@ -576,8 +576,8 @@
   electrons:
     base: Kr
     config:
-      - 4,d,1
-      - 5,s,2
+      - 4, d, 1
+      - 5, s, 2
 
 
 - atom: 40
@@ -591,8 +591,8 @@
   electrons:
     base: Kr
     config:
-      - 4,d,2
-      - 5,s,2
+      - 4, d, 2
+      - 5, s, 2
 
 
 - atom: 41
@@ -606,8 +606,8 @@
   electrons:
     base: Kr
     config:
-      - 4,d,4
-      - 5,s,1
+      - 4, d, 4
+      - 5, s, 1
 
 
 - atom: 42
@@ -621,8 +621,8 @@
   electrons:
     base: Kr
     config:
-      - 4,d,5
-      - 5,s,1
+      - 4, d, 5
+      - 5, s, 1
 
 
 - atom: 43
@@ -636,8 +636,8 @@
   electrons:
     base: Kr
     config:
-      - 4,d,5
-      - 5,s,2
+      - 4, d, 5
+      - 5, s, 2
 
 
 - atom: 44
@@ -651,8 +651,8 @@
   electrons:
     base: Kr
     config:
-      - 4,d,7
-      - 5,s,1
+      - 4, d, 7
+      - 5, s, 1
 
 
 - atom: 45
@@ -666,8 +666,8 @@
   electrons:
     base: Kr
     config:
-      - 4,d,8
-      - 5,s,1
+      - 4, d, 8
+      - 5, s, 1
 
 
 - atom: 46
@@ -681,7 +681,7 @@
   electrons:
     base: Kr
     config:
-      - 4,d,10
+      - 4, d, 10
 
 
 - atom: 47
@@ -695,8 +695,8 @@
   electrons:
     base: Kr
     config:
-      - 4,d,10
-      - 5,s,1
+      - 4, d, 10
+      - 5, s, 1
 
 
 - atom: 48
@@ -710,8 +710,8 @@
   electrons:
     base: Kr
     config:
-      - 4,d,10
-      - 5,s,2
+      - 4, d, 10
+      - 5, s, 2
 
 
 - atom: 49
@@ -725,9 +725,9 @@
   electrons:
     base: Kr
     config:
-      - 4,d,10
-      - 5,s,2
-      - 5,p,1
+      - 4, d, 10
+      - 5, s, 2
+      - 5, p, 1
 
 
 - atom: 50
@@ -741,9 +741,9 @@
   electrons:
     base: Kr
     config:
-      - 4,d,10
-      - 5,s,2
-      - 5,p,2
+      - 4, d, 10
+      - 5, s, 2
+      - 5, p, 2
 
 
 - atom: 51
@@ -757,9 +757,9 @@
   electrons:
     base: Kr
     config:
-      - 4,d,10
-      - 5,s,2
-      - 5,p,3
+      - 4, d, 10
+      - 5, s, 2
+      - 5, p, 3
 
 
 - atom: 52
@@ -773,9 +773,9 @@
   electrons:
     base: Kr
     config:
-      - 4,d,10
-      - 5,s,2
-      - 5,p,4
+      - 4, d, 10
+      - 5, s, 2
+      - 5, p, 4
 
 
 - atom: 53
@@ -789,9 +789,9 @@
   electrons:
     base: Kr
     config:
-      - 4,d,10
-      - 5,s,2
-      - 5,p,5
+      - 4, d, 10
+      - 5, s, 2
+      - 5, p, 5
 
 
 - atom: 54
@@ -805,9 +805,9 @@
   electrons:
     base: Kr
     config:
-      - 4,d,10
-      - 5,s,2
-      - 5,p,6
+      - 4, d, 10
+      - 5, s, 2
+      - 5, p, 6
 
 
 - atom: 55
@@ -821,7 +821,7 @@
   electrons:
     base: Xe
     config:
-      - 6,s,1
+      - 6, s, 1
 
 
 - atom: 56
@@ -835,7 +835,7 @@
   electrons:
     base: Xe
     config:
-      - 6,s,2
+      - 6, s, 2
 
 
 - atom: 57
@@ -849,8 +849,8 @@
   electrons:
     base: Xe
     config:
-      - 5,d,1
-      - 6,s,2
+      - 5, d, 1
+      - 6, s, 2
 
 
 - atom: 58
@@ -864,9 +864,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,1
-      - 5,d,1
-      - 6,s,2
+      - 4, f, 1
+      - 5, d, 1
+      - 6, s, 2
 
 
 - atom: 59
@@ -880,8 +880,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,3
-      - 6,s,2
+      - 4, f, 3
+      - 6, s, 2
 
 
 - atom: 60
@@ -895,8 +895,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,4
-      - 6,s,2
+      - 4, f, 4
+      - 6, s, 2
 
 
 - atom: 61
@@ -910,8 +910,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,5
-      - 6,s,2
+      - 4, f, 5
+      - 6, s, 2
 
 
 - atom: 62
@@ -925,8 +925,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,6
-      - 6,s,2
+      - 4, f, 6
+      - 6, s, 2
 
 
 - atom: 63
@@ -940,8 +940,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,7
-      - 6,s,2
+      - 4, f, 7
+      - 6, s, 2
 
 
 - atom: 64
@@ -955,9 +955,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,7
-      - 5,d,1
-      - 6,s,2
+      - 4, f, 7
+      - 5, d, 1
+      - 6, s, 2
 
 
 - atom: 65
@@ -971,8 +971,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,9
-      - 6,s,2
+      - 4, f, 9
+      - 6, s, 2
 
 
 - atom: 66
@@ -986,8 +986,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,10
-      - 6,s,2
+      - 4, f, 10
+      - 6, s, 2
 
 
 - atom: 67
@@ -1001,8 +1001,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,11
-      - 6,s,2
+      - 4, f, 11
+      - 6, s, 2
 
 
 - atom: 68
@@ -1016,8 +1016,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,12
-      - 6,s,2
+      - 4, f, 12
+      - 6, s, 2
 
 
 - atom: 69
@@ -1031,8 +1031,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,13
-      - 6,s,2
+      - 4, f, 13
+      - 6, s, 2
 
 
 - atom: 70
@@ -1046,8 +1046,8 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 6,s,2
+      - 4, f, 14
+      - 6, s, 2
 
 
 - atom: 71
@@ -1061,9 +1061,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,1
-      - 6,s,2
+      - 4, f, 14
+      - 5, d, 1
+      - 6, s, 2
 
 
 - atom: 72
@@ -1077,9 +1077,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,2
-      - 6,s,2
+      - 4, f, 14
+      - 5, d, 2
+      - 6, s, 2
 
 
 - atom: 73
@@ -1093,9 +1093,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,3
-      - 6,s,2
+      - 4, f, 14
+      - 5, d, 3
+      - 6, s, 2
 
 
 - atom: 74
@@ -1109,9 +1109,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,4
-      - 6,s,2
+      - 4, f, 14
+      - 5, d, 4
+      - 6, s, 2
 
 
 - atom: 75
@@ -1125,9 +1125,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,5
-      - 6,s,2
+      - 4, f, 14
+      - 5, d, 5
+      - 6, s, 2
 
 
 - atom: 76
@@ -1141,9 +1141,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,6
-      - 6,s,2
+      - 4, f, 14
+      - 5, d, 6
+      - 6, s, 2
 
 
 - atom: 77
@@ -1157,9 +1157,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,7
-      - 6,s,2
+      - 4, f, 14
+      - 5, d, 7
+      - 6, s, 2
 
 
 - atom: 78
@@ -1173,9 +1173,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,9
-      - 6,s,1
+      - 4, f, 14
+      - 5, d, 9
+      - 6, s, 1
 
 
 - atom: 79
@@ -1189,9 +1189,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,10
-      - 6,s,1
+      - 4, f, 14
+      - 5, d, 10
+      - 6, s, 1
 
 
 - atom: 80
@@ -1205,9 +1205,9 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,10
-      - 6,s,2
+      - 4, f, 14
+      - 5, d, 10
+      - 6, s, 2
 
 
 - atom: 81
@@ -1221,10 +1221,10 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,10
-      - 6,s,2
-      - 6,p,1
+      - 4, f, 14
+      - 5, d, 10
+      - 6, s, 2
+      - 6, p, 1
 
 
 - atom: 82
@@ -1238,10 +1238,10 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,10
-      - 6,s,2
-      - 6,p,2
+      - 4, f, 14
+      - 5, d, 10
+      - 6, s, 2
+      - 6, p, 2
 
 
 - atom: 83
@@ -1255,10 +1255,10 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,10
-      - 6,s,2
-      - 6,p,3
+      - 4, f, 14
+      - 5, d, 10
+      - 6, s, 2
+      - 6, p, 3
 
 
 - atom: 84
@@ -1272,10 +1272,10 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,10
-      - 6,s,2
-      - 6,p,4
+      - 4, f, 14
+      - 5, d, 10
+      - 6, s, 2
+      - 6, p, 4
 
 
 - atom: 85
@@ -1289,10 +1289,10 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,10
-      - 6,s,2
-      - 6,p,5
+      - 4, f, 14
+      - 5, d, 10
+      - 6, s, 2
+      - 6, p, 5
 
 
 - atom: 86
@@ -1306,10 +1306,10 @@
   electrons:
     base: Xe
     config:
-      - 4,f,14
-      - 5,d,10
-      - 6,s,2
-      - 6,p,6
+      - 4, f, 14
+      - 5, d, 10
+      - 6, s, 2
+      - 6, p, 6
 
 
 - atom: 87
@@ -1323,7 +1323,7 @@
   electrons:
     base: Rn
     config:
-      - 7,s,1
+      - 7, s, 1
 
 
 - atom: 88
@@ -1337,7 +1337,7 @@
   electrons:
     base: Rn
     config:
-      - 7,s,2
+      - 7, s, 2
 
 
 - atom: 89
@@ -1351,8 +1351,8 @@
   electrons:
     base: Rn
     config:
-      - 6,d,1
-      - 7,s,2
+      - 6, d, 1
+      - 7, s, 2
 
 
 - atom: 90
@@ -1366,8 +1366,8 @@
   electrons:
     base: Rn
     config:
-      - 6,d,2
-      - 7,s,2
+      - 6, d, 2
+      - 7, s, 2
 
 
 - atom: 91
@@ -1381,9 +1381,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,2
-      - 6,d,1
-      - 7,s,2
+      - 5, f, 2
+      - 6, d, 1
+      - 7, s, 2
 
 
 - atom: 92
@@ -1397,9 +1397,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,3
-      - 6,d,1
-      - 7,s,2
+      - 5, f, 3
+      - 6, d, 1
+      - 7, s, 2
 
 
 - atom: 93
@@ -1413,9 +1413,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,4
-      - 6,d,1
-      - 7,s,2
+      - 5, f, 4
+      - 6, d, 1
+      - 7, s, 2
 
 
 - atom: 94
@@ -1429,8 +1429,8 @@
   electrons:
     base: Rn
     config:
-      - 5,f,6
-      - 7,s,2
+      - 5, f, 6
+      - 7, s, 2
 
 
 - atom: 95
@@ -1444,8 +1444,8 @@
   electrons:
     base: Rn
     config:
-      - 5,f,7
-      - 7,s,2
+      - 5, f, 7
+      - 7, s, 2
 
 
 - atom: 96
@@ -1459,9 +1459,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,7
-      - 6,d,1
-      - 7,s,2
+      - 5, f, 7
+      - 6, d, 1
+      - 7, s, 2
 
 
 - atom: 97
@@ -1475,8 +1475,8 @@
   electrons:
     base: Rn
     config:
-      - 5,f,9
-      - 7,s,2
+      - 5, f, 9
+      - 7, s, 2
 
 
 - atom: 98
@@ -1490,8 +1490,8 @@
   electrons:
     base: Rn
     config:
-      - 5,f,10
-      - 7,s,2
+      - 5, f, 10
+      - 7, s, 2
 
 
 - atom: 99
@@ -1505,8 +1505,8 @@
   electrons:
     base: Rn
     config:
-      - 5,f,11
-      - 7,s,2
+      - 5, f, 11
+      - 7, s, 2
 
 
 - atom: 100
@@ -1520,8 +1520,8 @@
   electrons:
     base: Rn
     config:
-      - 5,f,12
-      - 7,s,2
+      - 5, f, 12
+      - 7, s, 2
 
 
 - atom: 101
@@ -1535,8 +1535,8 @@
   electrons:
     base: Rn
     config:
-      - 5,f,13
-      - 7,s,2
+      - 5, f, 13
+      - 7, s, 2
 
 
 - atom: 102
@@ -1550,8 +1550,8 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 7,s,2
+      - 5, f, 14
+      - 7, s, 2
 
 
 - atom: 103
@@ -1565,9 +1565,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 7,s,2
-      - 7,p,1
+      - 5, f, 14
+      - 7, s, 2
+      - 7, p, 1
 
 
 - atom: 104
@@ -1581,9 +1581,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,2
-      - 7,s,2
+      - 5, f, 14
+      - 6, d, 2
+      - 7, s, 2
 
 
 - atom: 105
@@ -1597,9 +1597,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,3
-      - 7,s,2
+      - 5, f, 14
+      - 6, d, 3
+      - 7, s, 2
 
 
 - atom: 106
@@ -1613,9 +1613,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,4
-      - 7,s,2
+      - 5, f, 14
+      - 6, d, 4
+      - 7, s, 2
 
 
 - atom: 107
@@ -1629,9 +1629,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,5
-      - 7,s,2
+      - 5, f, 14
+      - 6, d, 5
+      - 7, s, 2
 
 
 - atom: 108
@@ -1645,9 +1645,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,6
-      - 7,s,2
+      - 5, f, 14
+      - 6, d, 6
+      - 7, s, 2
 
 
 - atom: 109
@@ -1661,9 +1661,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,7
-      - 7,s,2
+      - 5, f, 14
+      - 6, d, 7
+      - 7, s, 2
 
 
 - atom: 110
@@ -1677,9 +1677,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,8
-      - 7,s,2
+      - 5, f, 14
+      - 6, d, 8
+      - 7, s, 2
 
 
 - atom: 111
@@ -1693,9 +1693,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,9
-      - 7,s,2
+      - 5, f, 14
+      - 6, d, 9
+      - 7, s, 2
 
 
 - atom: 112
@@ -1709,9 +1709,9 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,10
-      - 7,s,2
+      - 5, f, 14
+      - 6, d, 10
+      - 7, s, 2
 
 
 - atom: 113
@@ -1725,10 +1725,10 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,10
-      - 7,s,2
-      - 7,p,1
+      - 5, f, 14
+      - 6, d, 10
+      - 7, s, 2
+      - 7, p, 1
 
 
 - atom: 114
@@ -1742,10 +1742,10 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,10
-      - 7,s,2
-      - 7,p,2
+      - 5, f, 14
+      - 6, d, 10
+      - 7, s, 2
+      - 7, p, 2
 
 
 - atom: 115
@@ -1759,10 +1759,10 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,10
-      - 7,s,2
-      - 7,p,3
+      - 5, f, 14
+      - 6, d, 10
+      - 7, s, 2
+      - 7, p, 3
 
 
 - atom: 116
@@ -1776,10 +1776,10 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,10
-      - 7,s,2
-      - 7,p,4
+      - 5, f, 14
+      - 6, d, 10
+      - 7, s, 2
+      - 7, p, 4
 
 
 - atom: 117
@@ -1793,10 +1793,10 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,10
-      - 7,s,2
-      - 7,p,5
+      - 5, f, 14
+      - 6, d, 10
+      - 7, s, 2
+      - 7, p, 5
 
 
 - atom: 118
@@ -1810,7 +1810,7 @@
   electrons:
     base: Rn
     config:
-      - 5,f,14
-      - 6,d,10
-      - 7,s,2
-      - 7,p,6
+      - 5, f, 14
+      - 6, d, 10
+      - 7, s, 2
+      - 7, p, 6
