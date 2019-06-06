@@ -18,7 +18,7 @@ section#element-info.row.flex.justify-center.align-start.pb-3(:style="{'--elemen
 
   .col-12.col-sm-6.px-3.pl-sm-0.pr-sm-3.px-md-0.flex-centralize
     #atom-container.col-fill.ratio-square
-      atomus(:electrons='element.electrons')
+      atomus(:electrons='electronicConfig')
 
 
   .col-12.col-sm-6.select-text
@@ -51,7 +51,7 @@ section#element-info.row.flex.justify-center.align-start.pb-3(:style="{'--elemen
       template(v-for='item in element.electrons.config')
         span {{ item.split(',')[0] }}
           span.l-08 {{ item.split(',')[1].toUpperCase() }}
-          sup {{ item.split(',')[2] }}
+          sup.l-07 {{ item.split(',')[2] }}
           | {{ " " }}
 
 
@@ -119,6 +119,20 @@ export default
     elementFamily: ->
       index = @element.family
       return @$t('views.chemical_info.families')[index]
+
+
+    electronicConfig: ->
+      config = @element.electrons.config
+      base = @element.electrons.base
+
+      while base
+        el = @chemicals.find (e) =>
+          e.initials == base
+
+        base = el.electrons.base
+        config = [...el.electrons.config, ...config]
+
+      config
 
 
     googleLink: ->

@@ -74,6 +74,11 @@ export default
 
 
 
+  mounted: ->
+    console.log @$root.chemicals
+
+
+
   components:
     'navbar': navbar
     'icon-arrow-left': arrowLeftIcon
@@ -84,9 +89,6 @@ export default
 
 
 <style lang='sass'>
-
-@import 'prim-css'
-
 
 body
   --color-background: #333

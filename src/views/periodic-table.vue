@@ -125,7 +125,7 @@ export default
 
 
     > *
-      transition: transition(opacity, 175ms)
+      transition: transition(opacity)
 
     &.search-mode > *
       opacity: .4

@@ -53,7 +53,8 @@ module.exports = {
       sass: {
         includePaths: [
           resolve('node_modules')
-        ]
+        ],
+        data: `@import "prim-css/src/variables/_variables.scss"; @import "prim-css/src/functions/_functions.scss"; @import "prim-css/src/mixins/_mixins.scss";`
       },
 
       postcss: process.env.NODE_ENV === "production" ? {

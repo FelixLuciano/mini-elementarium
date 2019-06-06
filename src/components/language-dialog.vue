@@ -5,23 +5,23 @@
   transition(name='transition-slide-y')
     section.bg-white.radius-20.c-dark.flex(v-show='value')
 
-      .col-6.px-3.py-5.radius-20.bg-yellow.c-dark.flex.justify-center.align-center.h-xs
+      .col-6.px-3.py-5.radius-20.bg-yellow.c-dark.h-xs
+        .row.flex.justify-center.align-center.full-height
 
-        .col-12.a-center
-          icon-people-group(width='75' height='75px' fill='currentColor')
+          icon-people-group(width='75' height='75' fill='currentColor')
 
-        .l-09.w-bold {{ $t('views.language_dialog.leave_your_contribution') }}
-        .mt-2.l-06.a-center {{ $t('views.language_dialog.about_contributing') }}
+          .l-09.w-bold {{ $t('views.language_dialog.leave_your_contribution') }}
+          .mt-2.l-06.a-center {{ $t('views.language_dialog.about_contributing') }}
 
-        a.mt-4.bg-white.radius-4.radius-max.c-dark(type='button' href='https://github.com/FelixLuciano/mini-elementarium/issues/new?&labels=Language+request&template=language-request.md' target='_blank')
-          | {{ $t('views.language_dialog.contribute') }}
+          a.mt-4.bg-white.radius-4.radius-max.c-dark(type='button' href='https://github.com/FelixLuciano/mini-elementarium/issues/new?&labels=Language+request&template=language-request.md' target='_blank')
+            | {{ $t('views.language_dialog.contribute') }}
 
       .col-12.col-sm-6.p-3.flex.columns
 
         .col.flex.pt-1.l-10.l-sm-09.w-bold {{ $t('views.language_dialog.choose_language') }}
         .col.flex.pt-1.l-07.l-sm-06 *{{ $t('views.language_dialog.not_accurate') }}
 
-        .col-fill.my-3.l-08.l-sm-07
+        .col-fill.my-3.l-08.l-sm-07.scoll-vertical
           button.row.radius-max.a-left(v-for='language in languages' @click='setLanguage(language.value)')
             |{{ language.name }}
 
@@ -115,6 +115,10 @@ export default
   section
     width: 100%
     max-width: 600px
+
+    .scoll-vertical
+      max-height: 250px
+      overflow-y: auto
 
 
   .background-scrim
