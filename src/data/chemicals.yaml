@@ -1,0 +1,49 @@
+---
+  - distinction:
+      symbol: H
+      latin_name: Hydrogenium
+      atomic_number: 1
+      group: nonmetal
+      category: diatomic_nonmetal
+      appearance: colorless_odorless_gas
+      properties:
+        - highly_flammable
+    definition:
+      atomic_mass: 1.00784
+      density: 0.08988
+      melting: 13.95
+      boiling: 20.25
+      molar_heat: 28.836
+    electronic:
+      configuration:
+        base: null
+        config: 1s1
+        shells: [1]
+      negativity: 72.769
+      negativity_pauling: 2.2
+    xpos: 1
+    ypos: 1
+
+  - distinction:
+      symbol: He
+      latin_name: Helium
+      atomic_number: 2
+      group: noble_gas
+      category: noble_gas
+      appearance: colorless_odorless_gas
+      properties: null
+    definition:
+      atomic_mass: 4.002602
+      density: 0.1786
+      melting: 0.95
+      boiling: 4.25
+      molar_heat: 12.863
+    electronic:
+      configuration:
+        base: null
+        config: 1s2
+        shells: [2]
+      negativity: -48
+      negativity_pauling: null
+    xpos: 1
+    ypos: 18
