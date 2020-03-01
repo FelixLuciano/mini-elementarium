@@ -1,11 +1,13 @@
+<!-- Daniel -->
 <svg xmlns="http://www.w3.org/2000/svg" width="910" height="512">
   <g>
     <rect fill="#FD2" width="910" height="512"/>
     <circle fill="#FFF" cx="455" cy="256" r="180"/>
+  </g>
   <g style="transform-origin:center;animation:a 36s linear infinite;">
-    <circle fill="none" stroke="#FFF" stroke-width="3" cx="455" cy="256" r="335"/>
-    <circle fill="#FD2" cx="121" cy="256" r="32"/>
-    <circle fill="#FFF" cx="121" cy="256" r="16"/>
+    <circle fill="none" stroke="#FFF" stroke-width="3" cx="455" cy="256" r="317.5"/>
+    <circle fill="#FD2" cx="137.5" cy="256" r="32"/>
+    <circle fill="#FFF" cx="137.5" cy="256" r="16"/>
   </g><g>
     <circle fill="#FD2" cx="455" cy="256" r="120"/>
     <circle fill="#FFF" cx="455" cy="256" r="60"/>

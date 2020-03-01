@@ -21,7 +21,7 @@ You can use Elementarium by accecing the address [`FelixLuciano.github.io/elemen
 You can contribute to this project by [creating a issue](https://github.com/FelixLuciano/elementarium/issues/new/choose) or commenting on [issues already created](https://github.com/FelixLuciano/elementarium/issues).
 
 ### Translating
-With contribution it is possible to further improve this project. Translation is very important as it improves app access for people around the world. you can [open a translation issue](https://github.com/FelixLuciano/mini-elementarium/issues/new?&labels=Language+request&template=language-request.md) or comment on [translation issues](https://github.com/FelixLuciano/mini-elementarium/issues?q=is%3Aopen+is%3Aissue+label%3A%22Language+request%22).
+With contribution it is possible to improve this project even more. Translation is very important as it improves app access for people around the world. you can [open a translation issue](https://github.com/FelixLuciano/mini-elementarium/issues/new?&labels=Language+request&template=language-request.md) or comment on [translation issues](https://github.com/FelixLuciano/mini-elementarium/issues?q=is%3Aopen+is%3Aissue+label%3A%22Language+request%22).
 
 - [English](https://github.com/FelixLuciano/mini-elementarium/issues/2)
 - [Spanish](https://github.com/FelixLuciano/mini-elementarium/issues/5)
@@ -33,4 +33,4 @@ With contribution it is possible to further improve this project. Translation is
 - [Lyutov, Maxim](https://www.facebook.com/mlyutov). Application consulting and Russian translation.
 - [Wikiedia](https://en.wikipedia.org/wiki/Main_Page). Data from "[Periodic table](https://en.wikipedia.org/wiki/Periodic_table)"
 - [Bowserinator](https://github.com/Bowserinator). Data from "[Periodic-Table-JSON](https://github.com/Bowserinator/Periodic-Table-JSON)".
-- [Patel, Neel](https://neelpatel05.github.io/). Data from "[periodic-table-api](https://github.com/Bowserinator/Periodic-Table-JSON)".
+- [Patel, Neel](https://neelpatel05.github.io/). Data from "[periodic-table-api](https://github.com/neelpatel05/periodic-table-api)".

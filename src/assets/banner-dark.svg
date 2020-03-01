@@ -1,0 +1,18 @@
+<!-- The cooler Daniel -->
+<svg xmlns="http://www.w3.org/2000/svg" width="910" height="512">
+  <g>
+    <rect fill="#222" width="910" height="512"/>
+    <circle fill="#FFF" cx="455" cy="256" r="180"/>
+  </g>
+  <g style="transform-origin:455px 256px;animation:a 36s linear infinite;">
+    <circle fill="none" stroke="#AAA" stroke-width="3" cx="455" cy="256" r="317.5"/>
+    <circle fill="none" stroke="#FD2" stroke-width="3" cx="455" cy="256" r="317.5" style="stroke-dasharray:1995;stroke-dashoffset:1995;transform-origin:455px 256px;transform:rotate(180deg);animation:b ease-out 2s infinite;"/>
+    <circle fill="#222" cx="137.5" cy="256" r="32"/>
+    <circle fill="#FFF" cx="137.5" cy="256" r="16"/>
+  </g><g>
+    <circle fill="#FD2" cx="455" cy="256" r="120"/>
+    <circle fill="#FFF" cx="455" cy="256" r="60"/>
+    <path fill="#222" d="M446.4 241l17.3 30H545v-15c0-49.6-40.4-90-90-90s-90 40.4-90 90 40.4 90 90 90c15.8 0 31.4-4.2 45-12.1l-15-26c-9.1 5.3-19.5 8-30 8-33.1 0-60-26.9-60-60s26.9-60 60-60c27.9 0 51.4 19.2 58.1 45h-66.7v.1z"/>
+  </g>
+  <style>@keyframes a{to{transform:rotate(360deg);}}@keyframes b{50%{opacity:1;}to{stroke-dashoffset:0;opacity:0;transform:rotate(0);}}</style>
+</svg>

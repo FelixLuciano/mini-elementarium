@@ -1,49 +1,73 @@
----
-  - distinction:
-      symbol: H
-      latin_name: Hydrogenium
-      atomic_number: 1
-      group: nonmetal
-      category: diatomic_nonmetal
-      appearance: colorless_odorless_gas
-      properties:
-        - highly_flammable
-    definition:
-      atomic_mass: 1.00784
-      density: 0.08988
-      melting: 13.95
-      boiling: 20.25
-      molar_heat: 28.836
-    electronic:
-      configuration:
-        base: null
-        config: 1s1
-        shells: [1]
-      negativity: 72.769
-      negativity_pauling: 2.2
-    xpos: 1
-    ypos: 1
+- symbol: H
+  distinction:
+    latin_name: Hydrogenium
+    atomic_number: 1
+    group: nonmetal
+    category: diatomic_nonmetal
+    appearance: colorless_odorless_gas
+    properties:
+      - highly_flammable
+  definition:
+    atomic_mass: 1.00784
+    density: 0.08988
+    melting: 13.95
+    boiling: 20.25
+    molar_heat: 28.836
+  electronic:
+    configuration:
+      base: null
+      config: 1s1
+      shells: [1]
+    negativity: 72.769
+    negativity_pauling: 2.2
+  xpos: 1
+  ypos: 1
 
-  - distinction:
-      symbol: He
-      latin_name: Helium
-      atomic_number: 2
-      group: noble_gas
-      category: noble_gas
-      appearance: colorless_odorless_gas
-      properties: null
-    definition:
-      atomic_mass: 4.002602
-      density: 0.1786
-      melting: 0.95
-      boiling: 4.25
-      molar_heat: 12.863
-    electronic:
-      configuration:
-        base: null
-        config: 1s2
-        shells: [2]
-      negativity: -48
-      negativity_pauling: null
-    xpos: 1
-    ypos: 18
+- symbol: He
+  distinction:
+    latin_name: Helium
+    atomic_number: 2
+    group: noble_gas
+    category: noble_gas
+    appearance: colorless_odorless_gas
+    properties: null
+  definition:
+    atomic_mass: 4.002602
+    density: 0.1786
+    melting: 0.95
+    boiling: 4.25
+    molar_heat: 12.863
+  electronic:
+    configuration:
+      base: null
+      config: 1s2
+      shells: [2]
+    negativity: -48
+    negativity_pauling: null
+  xpos: 18
+  ypos: 1
+
+- symbol: Li
+  distinction:  
+    latin_name: Lithium
+    atomic_number: 3
+    group: alkali_metal
+    category: alkali_metal
+    appearance: silvery-white-metal
+    properties:
+      - explosive_in_water
+  definition:
+    atomic_mass: 1.941
+    density: 0.534
+    melting: 453.65
+    boiling: 1603.15
+    molar_heat: 24.86
+  electronic:
+    configuration:
+      base: 'He'
+      config: 2s1
+      shells: [2, 1]
+    negativity: 59.6326
+    negativity_pauling: 0.98
+  xpos: 1
+  ypos: 2
