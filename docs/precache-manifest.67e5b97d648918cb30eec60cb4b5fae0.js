@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/mini-elementarium/js/chunk-2d0e9b40.9f5fa391.js"
   },
   {
-    "revision": "7d6202b1b34d848bf70b8f6bf90f0671",
+    "revision": "710dd0494cb6b67d95414ea651926fbb",
     "url": "/mini-elementarium/index.html"
   },
   {
@@ -16,16 +16,16 @@ self.__precacheManifest = [
     "url": "/mini-elementarium/js/chunk-11ab159a.eacdfe0f.js"
   },
   {
-    "revision": "9755628257f01ebdf41e",
-    "url": "/mini-elementarium/js/chunk-2d0e26f7.b83b0389.js"
+    "revision": "5135eac3b17b18bc918e",
+    "url": "/mini-elementarium/js/chunk-2d0e26f7.9ae8aad7.js"
   },
   {
     "revision": "cc194d933f4659d05b84",
     "url": "/mini-elementarium/js/chunk-2d0e5daf.c2b234a4.js"
   },
   {
-    "revision": "bf4e9f8aee1ec67b5f0f",
-    "url": "/mini-elementarium/js/app.77a09f9b.js"
+    "revision": "d6c4599cfe0167fe762c",
+    "url": "/mini-elementarium/js/app.6190b02c.js"
   },
   {
     "revision": "a7058291ad06fb0b9f69",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/mini-elementarium/css/chunk-11ab159a.6a99654d.css"
   },
   {
-    "revision": "bf4e9f8aee1ec67b5f0f",
+    "revision": "d6c4599cfe0167fe762c",
     "url": "/mini-elementarium/css/app.d590513a.css"
   }
 ];
