@@ -43,7 +43,7 @@ chemicals:
   - Hydrogen
   - Helium
   - Lithium
-  - Berylium
+  - Beryllium
   - Boron
   - Carbon
   - Nitrogen
@@ -75,7 +75,7 @@ chemicals:
   - Arsenic
   - Selenium
   - Bromine
-  - Kripton
+  - Krypton
   - Rubidium
   - Strontium
   - Yttrium
@@ -103,14 +103,14 @@ chemicals:
   - Promethium
   - Samarium
   - Europium
-  - Gadolium
+  - Gadolinium
   - Terbium
   - Dysprosium
   - Holmium
   - Erbium
   - Thulium
   - Ytterbium
-  - Lutertium
+  - Lutetium
   - Hafnium
   - Tantalum
   - Tungsten
@@ -130,7 +130,7 @@ chemicals:
   - Radium
   - Actinium
   - Thorium
-  - Protactinum
+  - Protactinium
   - Uranium
   - Neptunium
   - Plutonium
@@ -144,12 +144,12 @@ chemicals:
   - Nobelium
   - Lawrencium
   - Rutherfordium
-  - Dobnium
+  - Dubnium
   - Seaborgium
   - Bohrium
   - Hassium
   - Meitnerium
-  - Darmstadium
+  - Darmstadtium
   - Roentgenium
   - Copernicium
   - Nihonium
