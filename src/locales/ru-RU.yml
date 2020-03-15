@@ -29,7 +29,6 @@ views:
     families:
       hydrogen: Водород / Неметалл
       noble_gases: Благородные газы
-      halogens: Галоген
       alkali_metals: Щелочные металлы
       alkaline_marth_metals: Щелочноземельные металлы
       transition_metals: Переходные металлы

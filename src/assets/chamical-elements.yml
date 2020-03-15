@@ -119,7 +119,7 @@
   initials: F
   latin: Fluorum
   mass: 18.998
-  family: halogens
+  family: non_metals
   color:
     primary: '#29F'
     secondary: '#4AF'
@@ -237,7 +237,7 @@
   initials: Cl
   latin: Chlorum
   mass: 35.453
-  family: halogens
+  family: non_metals
   color:
     primary: '#29F'
     secondary: '#4AF'
@@ -509,7 +509,7 @@
   initials: Br
   latin: Bromum
   mass: 79.904
-  family: halogens
+  family: non_metals
   color:
     primary: '#29F'
     secondary: '#4AF'
@@ -782,7 +782,7 @@
   initials: I
   latin: Iodium
   mass: 126.904
-  family: halogens
+  family: non_metals
   color:
     primary: '#29F'
     secondary: '#4AF'

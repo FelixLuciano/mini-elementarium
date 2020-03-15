@@ -29,7 +29,6 @@ views:
     families:
       hydrogen: Hidrogênio / não-metais
       noble_gases: Gáses nobres
-      halogens: Halogênios
       alkali_metals: Metais alcalinos
       alkaline_marth_metals: Metais alcalinos terrosos
       transition_metals: Metais de transição

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/mini-elementarium/precache-manifest.10c28b689a97d5f5ebb01515d6335be8.js"
+  "/mini-elementarium/precache-manifest.5184ec29d5ddb17a4f8df214730bdfab.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "mini-elementarium"});

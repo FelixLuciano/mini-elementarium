@@ -29,7 +29,6 @@ views:
     families:
       hydrogen: Hidrógeno / No Metales
       noble_gases: gas noble
-      halogens: Halógenos
       alkali_metals: Metales alcalinos
       alkaline_marth_metals: Metales alcalinotérreos
       transition_metals: Metales de transición
