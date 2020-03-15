@@ -1,11 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 255 255" xml:space="preserve">
-	<style type="text/css">
-		.e{fill:none;stroke:#37474F;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	</style>
-	<circle fill="#FDD835" cx="127.5" cy="127.5" r="120"/>
-	<circle fill="#FFF" cx="127.5" cy="127.5" r="73"/>
-	<path class="e" d="M149,207.7c-6.9,1.8-14.1,2.8-21.5,2.8c-45.8,0-83-37.2-83-83c0-45.8,37.2-83,83-83c45.8,0,83,37.2,83,83h-83"/>
-	<circle fill="#37474F" cx="215" cy="215" r="40"/>
-	<polygon fill="#FFF" points="237.5,192.5 237.5,237.5 227.5,237.5 227.5,209.9 215,227.8 202.5,209.9 202.5,237.5 192.5,237.5 192.5,192.5 202.5,192.5 215,210.4 227.5,192.5 "/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+  <circle cx="160" cy="160" r="160" fill="#FD2"/>
+  <circle cx="160" cy="160" r="80" fill="#FFF"/>
+  <path fill="#222" d="M148.5 140l23 40H280v-20c0-66.2-53.8-120-120-120S40 93.8 40 160s53.8 120 120 120c21.1 0 41.8-5.6 60-16.1l-20-34.6c-12.1 7-26 10.7-40 10.7-44.1 0-80-35.9-80-80s35.9-80 80-80c37.2 0 68.6 25.5 77.5 60h-89z"/>
 </svg>

@@ -1,6 +1,6 @@
 <template lang='pug'>
 
-section#about.row.select-text.pb-3
+section#about.row.select-text.pb-3.px-2.px-md-0
   logo.col-12.mb-3.no-select(height='127')
 
 

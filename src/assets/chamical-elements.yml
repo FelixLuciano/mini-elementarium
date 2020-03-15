@@ -5,8 +5,8 @@
   mass: 1.0079
   family: hydrogen
   color:
-    primary: --color-light
-    secondary: --color-light
+    primary: '#EEE'
+    secondary: '#EEE'
   electrons:
     base: false
     config:
@@ -19,8 +19,8 @@
   mass: 4.0026
   family: noble_gases
   color:
-    primary: --color-sapphire-l1
-    secondary: --color-sapphire-l2
+    primary: '#24F'
+    secondary: '#4AF'
   electrons:
     base: false
     config:
@@ -33,8 +33,8 @@
   mass: 1.941
   family: alkali_metals
   color:
-    primary: --color-red-l1
-    secondary: --color-red-l2
+    primary: '#F42'
+    secondary: '#F64'
   electrons:
     base: He
     config:
@@ -47,8 +47,8 @@
   mass: 9.0122
   family: alkaline_marth_metals
   color:
-    primary: --color-orange-l1
-    secondary: --color-orange-l2
+    primary: '#F92'
+    secondary: '#FA4'
   electrons:
     base: He
     config:
@@ -61,8 +61,8 @@
   mass: 10.811
   family: semi_metals
   color:
-    primary: --color-lime-l1
-    secondary: --color-lime-l2
+    primary: '#2F9'
+    secondary: '#4FB'
   electrons:
     base: He
     config:
@@ -76,8 +76,8 @@
   mass: 12.011
   family: non_metals
   color:
-    primary: --color-green-l1
-    secondary: --color-green-l2
+    primary: '#29F'
+    secondary: '#4AF'
   electrons:
     base: He
     config:
@@ -91,8 +91,8 @@
   mass: 14.007
   family: non_metals
   color:
-    primary: --color-green-l1
-    secondary: --color-green-l2
+    primary: '#29F'
+    secondary: '#4AF'
   electrons:
     base: He
     config:
@@ -106,8 +106,8 @@
   mass: 15.999
   family: non_metals
   color:
-    primary: --color-green-l1
-    secondary: --color-green-l2
+    primary: '#29F'
+    secondary: '#4AF'
   electrons:
     base: He
     config:
@@ -121,8 +121,8 @@
   mass: 18.998
   family: halogens
   color:
-    primary: --color-blue-l1
-    secondary: --color-blue-l2
+    primary: '#29F'
+    secondary: '#4AF'
   electrons:
     base: He
     config:
@@ -136,8 +136,8 @@
   mass: 20.18
   family: noble_gases
   color:
-    primary: --color-sapphire-l1
-    secondary: --color-sapphire-l2
+    primary: '#24F'
+    secondary: '#4AF'
   electrons:
     base: He
     config:
@@ -151,8 +151,8 @@
   mass: 22.99
   family: alkali_metals
   color:
-    primary: --color-red-l1
-    secondary: --color-red-l2
+    primary: '#F42'
+    secondary: '#F64'
   electrons:
     base: Ne
     config:
@@ -165,8 +165,8 @@
   mass: 24.305
   family: alkaline_marth_metals
   color:
-    primary: --color-orange-l1
-    secondary: --color-orange-l2
+    primary: '#F92'
+    secondary: '#FA4'
   electrons:
     base: Ne
     config:
@@ -179,8 +179,8 @@
   mass: 26.962
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Ne
     config:
@@ -194,8 +194,8 @@
   mass: 28.066
   family: semi_metals
   color:
-    primary: --color-lime-l1
-    secondary: --color-lime-l2
+    primary: '#2F9'
+    secondary: '#4FB'
   electrons:
     base: Ne
     config:
@@ -209,8 +209,8 @@
   mass: 30.974
   family: non_metals
   color:
-    primary: --color-green-l1
-    secondary: --color-green-l2
+    primary: '#29F'
+    secondary: '#4AF'
   electrons:
     base: Ne
     config:
@@ -224,8 +224,8 @@
   mass: 32.065
   family: non_metals
   color:
-    primary: --color-green-l1
-    secondary: --color-green-l2
+    primary: '#29F'
+    secondary: '#4AF'
   electrons:
     base: Ne
     config:
@@ -239,8 +239,8 @@
   mass: 35.453
   family: halogens
   color:
-    primary: --color-blue-l1
-    secondary: --color-blue-l2
+    primary: '#29F'
+    secondary: '#4AF'
   electrons:
     base: Ne
     config:
@@ -254,8 +254,8 @@
   mass: 39.948
   family: noble_gases
   color:
-    primary: --color-sapphire-l1
-    secondary: --color-sapphire-l2
+    primary: '#24F'
+    secondary: '#4AF'
   electrons:
     base: Ne
     config:
@@ -269,8 +269,8 @@
   mass: 39.098
   family: alkali_metals
   color:
-    primary: --color-red-l1
-    secondary: --color-red-l2
+    primary: '#F42'
+    secondary: '#F64'
   electrons:
     base: Ar
     config:
@@ -283,8 +283,8 @@
   mass: 40.078
   family: alkaline_marth_metals
   color:
-    primary: --color-orange-l1
-    secondary: --color-orange-l2
+    primary: '#F92'
+    secondary: '#FA4'
   electrons:
     base: Ar
     config:
@@ -297,8 +297,8 @@
   mass: 44.956
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Ar
     config:
@@ -312,8 +312,8 @@
   mass: 74.88
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Ar
     config:
@@ -327,8 +327,8 @@
   mass: 50.942
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Ar
     config:
@@ -342,8 +342,8 @@
   mass: 51.996
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Ar
     config:
@@ -357,8 +357,8 @@
   mass: 54.938
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Ar
     config:
@@ -372,8 +372,8 @@
   mass: 55.845
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Ar
     config:
@@ -387,8 +387,8 @@
   mass: 58933
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Ar
     config:
@@ -402,8 +402,8 @@
   mass: 58.693
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Ar
     config:
@@ -417,8 +417,8 @@
   mass: 63.546
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Ar
     config:
@@ -432,8 +432,8 @@
   mass: 65.38
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Ar
     config:
@@ -447,8 +447,8 @@
   mass: 69.723
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Ar
     config:
@@ -463,8 +463,8 @@
   mass: 72.631
   family: semi_metals
   color:
-    primary: --color-lime-l1
-    secondary: --color-lime-l2
+    primary: '#2F9'
+    secondary: '#4FB'
   electrons:
     base: Ar
     config:
@@ -479,8 +479,8 @@
   mass: 74.922
   family: semi_metals
   color:
-    primary: --color-lime-l1
-    secondary: --color-lime-l2
+    primary: '#2F9'
+    secondary: '#4FB'
   electrons:
     base: Ar
     config:
@@ -495,8 +495,8 @@
   mass: 78.971
   family: non_metals
   color:
-    primary: --color-green-l1
-    secondary: --color-green-l2
+    primary: '#29F'
+    secondary: '#4AF'
   electrons:
     base: Ar
     config:
@@ -511,8 +511,8 @@
   mass: 79.904
   family: halogens
   color:
-    primary: --color-blue-l1
-    secondary: --color-blue-l2
+    primary: '#29F'
+    secondary: '#4AF'
   electrons:
     base: Ar
     config:
@@ -527,8 +527,8 @@
   mass: 84.768
   family: noble_gases
   color:
-    primary: --color-sapphire-l1
-    secondary: --color-sapphire-l2
+    primary: '#24F'
+    secondary: '#4AF'
   electrons:
     base: Ar
     config:
@@ -543,8 +543,8 @@
   mass: 85.468
   family: alkali_metals
   color:
-    primary: --color-red-l1
-    secondary: --color-red-l2
+    primary: '#F42'
+    secondary: '#F64'
   electrons:
     base: Kr
     config:
@@ -557,8 +557,8 @@
   mass: 87.62
   family: alkaline_marth_metals
   color:
-    primary: --color-orange-l1
-    secondary: --color-orange-l2
+    primary: '#F92'
+    secondary: '#FA4'
   electrons:
     base: Kr
     config:
@@ -571,8 +571,8 @@
   mass: 88.906
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Kr
     config:
@@ -586,8 +586,8 @@
   mass: 91.224
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Kr
     config:
@@ -601,8 +601,8 @@
   mass: 92.906
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Kr
     config:
@@ -616,8 +616,8 @@
   mass: 95.95
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Kr
     config:
@@ -631,8 +631,8 @@
   mass: 98.907
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Kr
     config:
@@ -646,8 +646,8 @@
   mass: 101.07
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Kr
     config:
@@ -661,8 +661,8 @@
   mass: 102.906
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Kr
     config:
@@ -676,8 +676,8 @@
   mass: 106.42
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Kr
     config:
@@ -690,8 +690,8 @@
   mass: 107.868
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Kr
     config:
@@ -705,8 +705,8 @@
   mass: 112.414
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Kr
     config:
@@ -720,8 +720,8 @@
   mass: 114.818
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Kr
     config:
@@ -736,8 +736,8 @@
   mass: 118.711
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Kr
     config:
@@ -752,8 +752,8 @@
   mass: 121.76
   family: semi_metals
   color:
-    primary: --color-lime-l1
-    secondary: --color-lime-l2
+    primary: '#2F9'
+    secondary: '#4FB'
   electrons:
     base: Kr
     config:
@@ -768,8 +768,8 @@
   mass: 127.6
   family: semi_metals
   color:
-    primary: --color-lime-l1
-    secondary: --color-lime-l2
+    primary: '#2F9'
+    secondary: '#4FB'
   electrons:
     base: Kr
     config:
@@ -784,8 +784,8 @@
   mass: 126.904
   family: halogens
   color:
-    primary: --color-blue-l1
-    secondary: --color-blue-l2
+    primary: '#29F'
+    secondary: '#4AF'
   electrons:
     base: Kr
     config:
@@ -800,8 +800,8 @@
   mass: 131.294
   family: noble_gases
   color:
-    primary: --color-sapphire-l1
-    secondary: --color-sapphire-l2
+    primary: '#24F'
+    secondary: '#4AF'
   electrons:
     base: Kr
     config:
@@ -816,8 +816,8 @@
   mass: 132.905
   family: alkali_metals
   color:
-    primary: --color-red-l1
-    secondary: --color-red-l2
+    primary: '#F42'
+    secondary: '#F64'
   electrons:
     base: Xe
     config:
@@ -830,8 +830,8 @@
   mass: 137.328
   family: alkaline_marth_metals
   color:
-    primary: --color-orange-l1
-    secondary: --color-orange-l2
+    primary: '#F92'
+    secondary: '#FA4'
   electrons:
     base: Xe
     config:
@@ -844,8 +844,8 @@
   mass: 138.905
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -859,8 +859,8 @@
   mass: 140.116
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -875,8 +875,8 @@
   mass: 140.908
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -890,8 +890,8 @@
   mass: 144.243
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -905,8 +905,8 @@
   mass: 144.913
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -920,8 +920,8 @@
   mass: 150
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -935,8 +935,8 @@
   mass: 151.964
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -950,8 +950,8 @@
   mass: 157.25
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -966,8 +966,8 @@
   mass: 158.925
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -981,8 +981,8 @@
   mass: 162.5
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -996,8 +996,8 @@
   mass: 164.93
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -1011,8 +1011,8 @@
   mass: 167.259
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -1026,8 +1026,8 @@
   mass: 168.934
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -1041,8 +1041,8 @@
   mass: 173.055
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -1056,8 +1056,8 @@
   mass: 174.967
   family: lanthanoids
   color:
-    primary: --color-fuchsia-l1
-    secondary: --color-fuchsia-l2
+    primary: '#F29'
+    secondary: '#F4A'
   electrons:
     base: Xe
     config:
@@ -1072,8 +1072,8 @@
   mass: 178.49
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Xe
     config:
@@ -1088,8 +1088,8 @@
   mass: 180.948
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Xe
     config:
@@ -1104,8 +1104,8 @@
   mass: 183.85
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Xe
     config:
@@ -1120,8 +1120,8 @@
   mass: 186.207
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Xe
     config:
@@ -1136,8 +1136,8 @@
   mass: 190.23
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Xe
     config:
@@ -1152,8 +1152,8 @@
   mass: 192.22
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Xe
     config:
@@ -1168,8 +1168,8 @@
   mass: 195.08
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Xe
     config:
@@ -1184,8 +1184,8 @@
   mass: 196.967
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Xe
     config:
@@ -1200,8 +1200,8 @@
   mass: 200.59
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Xe
     config:
@@ -1216,8 +1216,8 @@
   mass: 204.383
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Xe
     config:
@@ -1233,8 +1233,8 @@
   mass: 207.2
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Xe
     config:
@@ -1250,8 +1250,8 @@
   mass: 208.68
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Xe
     config:
@@ -1265,10 +1265,10 @@
   initials: Po
   latin: Polonium
   mass: 208.982
-  family: semi_metals
+  family: post_transition_metals
   color:
-    primary: --color-lime-l1
-    secondary: --color-lime-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Xe
     config:
@@ -1282,10 +1282,10 @@
   initials: At
   latin: Astatum
   mass: 209.987
-  family: halogens
+  family: semi_metals
   color:
-    primary: --color-blue-l1
-    secondary: --color-blue-l2
+    primary: '#2F9'
+    secondary: '#4FB'
   electrons:
     base: Xe
     config:
@@ -1301,8 +1301,8 @@
   mass: 22.018
   family: noble_gases
   color:
-    primary: --color-sapphire-l1
-    secondary: --color-sapphire-l2
+    primary: '#24F'
+    secondary: '#4AF'
   electrons:
     base: Xe
     config:
@@ -1318,8 +1318,8 @@
   mass: 223.02
   family: alkali_metals
   color:
-    primary: --color-red-l1
-    secondary: --color-red-l2
+    primary: '#F42'
+    secondary: '#F64'
   electrons:
     base: Rn
     config:
@@ -1332,8 +1332,8 @@
   mass: 226.025
   family: alkaline_marth_metals
   color:
-    primary: --color-orange-l1
-    secondary: --color-orange-l2
+    primary: '#F92'
+    secondary: '#FA4'
   electrons:
     base: Rn
     config:
@@ -1346,8 +1346,8 @@
   mass: 227.028
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1361,8 +1361,8 @@
   mass: 232.038
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1376,8 +1376,8 @@
   mass: 231.036
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1392,8 +1392,8 @@
   mass: 238.029
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1408,8 +1408,8 @@
   mass: 237.048
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1424,8 +1424,8 @@
   mass: 244.064
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1439,8 +1439,8 @@
   mass: 243.061
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1454,8 +1454,8 @@
   mass: 247.07
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1470,8 +1470,8 @@
   mass: 247.07
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1485,8 +1485,8 @@
   mass: 251.08
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1500,8 +1500,8 @@
   mass: 254
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1515,8 +1515,8 @@
   mass: 257.095
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1530,8 +1530,8 @@
   mass: 258.1
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1545,8 +1545,8 @@
   mass: 259.101
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1560,8 +1560,8 @@
   mass: 262
   family: actinoids
   color:
-    primary: --color-purple-l1
-    secondary: --color-purple-l2
+    primary: '#92F'
+    secondary: '#A4F'
   electrons:
     base: Rn
     config:
@@ -1576,8 +1576,8 @@
   mass: 261
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Rn
     config:
@@ -1592,8 +1592,8 @@
   mass: 262
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Rn
     config:
@@ -1608,8 +1608,8 @@
   mass: 266
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Rn
     config:
@@ -1624,8 +1624,8 @@
   mass: 264
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Rn
     config:
@@ -1640,8 +1640,8 @@
   mass: 269
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Rn
     config:
@@ -1656,8 +1656,8 @@
   mass: 278
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Rn
     config:
@@ -1672,8 +1672,8 @@
   mass: 281
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Rn
     config:
@@ -1688,8 +1688,8 @@
   mass: 280
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Rn
     config:
@@ -1704,8 +1704,8 @@
   mass: 285
   family: transition_metals
   color:
-    primary: --color-yellow-l1
-    secondary: --color-yellow-l2
+    primary: '#FD2'
+    secondary: '#FD4'
   electrons:
     base: Rn
     config:
@@ -1720,8 +1720,8 @@
   mass: 286
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Rn
     config:
@@ -1737,8 +1737,8 @@
   mass: 289
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Rn
     config:
@@ -1754,8 +1754,8 @@
   mass: 289
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Rn
     config:
@@ -1771,8 +1771,8 @@
   mass: 293
   family: post_transition_metals
   color:
-    primary: --color-turquoise-l1
-    secondary: --color-turquoise-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Rn
     config:
@@ -1786,10 +1786,10 @@
   initials: Ts
   latin: Tennessine
   mass: 294
-  family: halogens
+  family: post_transition_metals
   color:
-    primary: --color-blue-l1
-    secondary: --color-blue-l2
+    primary: '#2F4'
+    secondary: '#4F6'
   electrons:
     base: Rn
     config:
@@ -1805,8 +1805,8 @@
   mass: 294
   family: noble_gases
   color:
-    primary: --color-sapphire-l1
-    secondary: --color-sapphire-l2
+    primary: '#24F'
+    secondary: '#4AF'
   electrons:
     base: Rn
     config:

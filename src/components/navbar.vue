@@ -1,9 +1,9 @@
 <template lang='pug'>
 
-nav.row.full-row.py-1.px-md-3.flex.no-wrap
+nav.row.full-row.py-1.px-2.flex.no-wrap.bg-gray-d10
 
   .col.flex.items-center
-    logo(width='32' height='32')
+    logo(width='28' height='28')
     span.h-xs.pl-2.l-07.w-bold MINI ELEMENTARIUM
 
 
@@ -24,7 +24,7 @@ nav.row.full-row.py-1.px-md-3.flex.no-wrap
 
 
   transition(name='transition-slide-y')
-    #search-bar.container.p-1(v-show='showSearchbar')
+    #search-bar.container.p-1.bg-gray-d10(v-show='showSearchbar')
       .row.fill
 
         input.col-fill.radius-10(
@@ -130,11 +130,14 @@ nav
     top: 0
 
     input
-      height: 50px
+      --color-primary: #FD2
+      height: 48px
       border-width: 2px
       font-size: 16px
 
     button
-      margin-left: -50px
+      width: 48px
+      height: 48px
+      margin-left: -48px
 
 </style>

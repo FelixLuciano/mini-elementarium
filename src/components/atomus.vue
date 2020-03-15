@@ -70,7 +70,7 @@ export default
   .nucleus
     width: 13%
     height: 13%
-    background: var(--element-color)
+    background: var(--color-primary)
     border-radius: 50%
     position: absolute
 
@@ -129,8 +129,7 @@ export default
       div
         min-width: 15px
         min-height: 15px
-        background-color: var(--element-color)
-        // background-color: map-get($short-tone-colors, red)
+        background-color: var(--color-primary)
         border: 3px solid var(--color-background)
         border-radius: 50%
         transform: translate(0, calc(-50% - 1px))

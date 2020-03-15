@@ -1,6 +1,6 @@
 <template lang='pug'>
 
-section#element-info.row.flex.justify-center.align-start.pb-3(:style="{'--element-color': `var(${element.color.secondary})`}")
+section#element-info.row.flex.justify-center.align-start.pb-3.px-2.px-md-0(:style='pageStyle')
 
   .col-12.h-sm.select-text
     .l-25
@@ -134,6 +134,10 @@ export default
 
       config
 
+    pageStyle: ->
+      '--color-primary': @element.color.primary
+      '--color-secondary': @element.color.secondary
+
 
     googleLink: ->
       chemicalElementText = @$t('views.chemical_info.chemical_element').replace(/\s+/gm, '+')
@@ -170,13 +174,11 @@ export default
 <style lang='sass'>
 
 #element-info
-  --color-primary: var(--element-color)
-
   #atom-container
     max-width: 340px
 
   .element-color
-    color: var(--element-color)
+    color: var(--color-secondary)
 
   a.outline
     border-color: var(--color-gray-d4)

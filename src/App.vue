@@ -1,6 +1,6 @@
 <template lang='pug'>
 
-#app.container.fill-screen.px-2.px-md-0
+#app.container.fill-screen
 
   navbar(@search='search = $event')
 
@@ -71,12 +71,6 @@ export default
       if @$root.historyRegister
         @history += 1
         @$root.historyRegister = false
-
-
-
-  mounted: ->
-    console.log @$root.chemicals
-
 
 
   components:

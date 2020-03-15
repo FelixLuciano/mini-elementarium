@@ -1,12 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 640 320" style="enable-background:new 0 0 640 320;" xml:space="preserve">
-	<style type="text/css">
-		.st2{fill:none;stroke:#37474F;stroke-width:15;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	</style>
-	<path fill="#FDD835" d="M630,320H10c-5.5,0-10-4.5-10-10V10C0,4.5,4.5,0,10,0h620c5.5,0,10,4.5,10,10v300C640,315.5,635.5,320,630,320z"/>
-	<circle fill="#FFFFFF" cx="320.5" cy="160.5" r="90"/>
-	<circle fill="#FDD835" cx="320.5" cy="160.5" r="54.8"/>
-	<path class="st2" d="M336.6,220.6c-5.2,1.4-10.6,2.1-16.1,2.1c-34.4,0-62.3-27.9-62.3-62.3s27.9-62.3,62.3-62.3s62.3,27.9,62.3,62.3h-62.3"/>
-	<circle fill="#37474F" cx="386.1" cy="226.1" r="30"/>
-	<polygon fill="#FFFFFF" points="403,209.3 403,243 395.5,243 395.5,222.3 386.1,235.7 376.8,222.3 376.8,243 369.3,243 369.3,209.3 376.8,209.3 386.1,222.7 395.5,209.3 "/>
+<!-- Daniel -->
+<svg xmlns="http://www.w3.org/2000/svg" width="910" height="512">
+  <g>
+    <rect fill="#FD2" width="910" height="512"/>
+    <circle fill="#FFF" cx="455" cy="256" r="180"/>
+  </g>
+  <g style="transform-origin:center;animation:a 36s linear infinite;">
+    <circle fill="none" stroke="#FFF" stroke-width="3" cx="455" cy="256" r="317.5"/>
+    <circle fill="#FD2" cx="137.5" cy="256" r="32"/>
+    <circle fill="#FFF" cx="137.5" cy="256" r="16"/>
+  </g><g>
+    <circle fill="#FD2" cx="455" cy="256" r="120"/>
+    <circle fill="#FFF" cx="455" cy="256" r="60"/>
+    <path fill="#222" d="M446.4 241l17.3 30H545v-15c0-49.6-40.4-90-90-90s-90 40.4-90 90 40.4 90 90 90c15.8 0 31.4-4.2 45-12.1l-15-26c-9.1 5.3-19.5 8-30 8-33.1 0-60-26.9-60-60s26.9-60 60-60c27.9 0 51.4 19.2 58.1 45h-66.7v.1z"/>
+  </g>
+  <style>@keyframes a{to{transform:rotate(360deg);}}</style>
 </svg>
