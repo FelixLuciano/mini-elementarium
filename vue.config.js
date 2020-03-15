@@ -1,7 +1,6 @@
 'use strict'
 
 const Path = require('path')
-const Glob = require('glob')
 
 const Purgecss = require("@fullhuman/postcss-purgecss")
 
