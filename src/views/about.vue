@@ -42,7 +42,7 @@ section#about.row.select-text.pb-3.px-2.px-md-0
 
 import logo from '@/assets/logo'
 
-import githubIcon from 'icons/github-circle'
+import githubIcon from 'icons/github'
 import balanceIcon from 'icons/scale-balance'
 
 
