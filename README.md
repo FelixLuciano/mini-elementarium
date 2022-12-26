@@ -35,4 +35,4 @@ You can contribute to the translation of this application by [creating a issue](
 [MIT](https://github.com/FelixLuciano/mini-elementarium/blob/master/LICENSE)
 
 
-**Copyright (c) 2019 Luciano Felix**
+**Copyright (c) 2023 Luciano Felix**

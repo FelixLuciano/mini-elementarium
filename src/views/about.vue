@@ -20,7 +20,7 @@ section#about.row.select-text.pb-3.px-2.px-md-0
     .col-12.l-07
       span {{ $t('views.about.consultant', [$t('views.about.peoples.maxim_lyutov')]) }}
       br
-      span Copyright © 2019 Luciano Felix
+      span Copyright © 2023 Luciano Felix
 
     .col-12.mt-2.spacing-2
 
